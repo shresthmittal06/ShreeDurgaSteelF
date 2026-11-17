@@ -1,0 +1,106 @@
+{
+  "published": {
+    "id": "draft",
+    "textOverrides": {
+      "footer.phoneOverride": "+91 9997890127",
+      "home.about.capDesc": "With in-house manufacturing expertise and modern production techniques, we specialise in stainless steel products, including trays, kitchenware, utility products and customised solutions. Our capabilities focus on precision, functionality and consistent production.",
+      "footer.emailOverride": "infoshridurgasteels@gmail.com",
+      "home.category.commercial-kitchen-equipment.description": "High-performance, heavy-duty equipment for professional kitchens — Fryers, Grillers, Griddles, Pizza ovens, Salamanders and more, built for consistent and efficient operation.",
+      "home.category.kitchenware-home-utility.description": "A wide range of Stainless Steel essentials for home and commercial use — Trays, Masala Boxes, Pooja Petis, Glass Stands, Servingware and more.",
+      "footer.addressOverride": "In-front of Ganesh City Colony, Kalwari Road, Near FCI Godown, Hathras, Uttar Pradesh 204101",
+      "home.category.gn-pans.description": "Standardised Gastronorm (GN) pans and matching lids in multiple sizes and depths — ideal for Food Preparation, Storage, Display and Service."
+    },
+    "extraParagraphs": {},
+    "imageOverrides": {
+      "home.category.commercial-kitchen-equipment": {
+        "src": "media://img-1794906460613-ayrm1x",
+        "alt": "Commercial Kitchen Equipment",
+        "mediaType": "image",
+        "deleted": false,
+        "videoId": "",
+        "fit": "cover",
+        "position": "50% 50%"
+      },
+      "home.category.kitchenware-home-utility": {
+        "videoId": "",
+        "fit": "cover",
+        "mediaType": "image",
+        "deleted": false,
+        "position": "50% 50%",
+        "alt": "Kitchenware & Home Utility",
+        "src": "media://img-1794906419408-6899ls"
+      },
+      "home.category.gn-pans": {
+        "deleted": false,
+        "mediaType": "image",
+        "fit": "cover",
+        "videoId": "",
+        "position": "50% 50%",
+        "alt": "GN Pans & Accessories",
+        "src": "media://img-1794906436629-jeuojl"
+      }
+    },
+    "categoryOverrides": {},
+    "updatedAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1794906464,
+      "nanoseconds": 830000000
+    },
+    "logoAlt": "SHREE DURGA STEELS Logo",
+    "logoUrl": "media://img-1794838404789-xll8y5",
+    "logoDeleted": false,
+    "logoPosition": "50% 50%"
+  },
+  "draft": {
+    "id": "draft",
+    "textOverrides": {
+      "footer.phoneOverride": "+91 9997890127",
+      "home.about.capDesc": "With in-house manufacturing expertise and modern production techniques, we specialise in stainless steel products, including trays, kitchenware, utility products and customised solutions. Our capabilities focus on precision, functionality and consistent production.",
+      "footer.emailOverride": "infoshridurgasteels@gmail.com",
+      "home.category.commercial-kitchen-equipment.description": "High-performance, heavy-duty equipment for professional kitchens — Fryers, Grillers, Griddles, Pizza ovens, Salamanders and more, built for consistent and efficient operation.",
+      "home.category.kitchenware-home-utility.description": "A wide range of Stainless Steel essentials for home and commercial use — Trays, Masala Boxes, Pooja Petis, Glass Stands, Servingware and more.",
+      "footer.addressOverride": "In-front of Ganesh City Colony, Kalwari Road, Near FCI Godown, Hathras, Uttar Pradesh 204101",
+      "home.category.gn-pans.description": "Standardised Gastronorm (GN) pans and matching lids in multiple sizes and depths — ideal for Food Preparation, Storage, Display and Service."
+    },
+    "extraParagraphs": {},
+    "imageOverrides": {
+      "home.category.commercial-kitchen-equipment": {
+        "src": "media://img-1794906460613-ayrm1x",
+        "alt": "Commercial Kitchen Equipment",
+        "mediaType": "image",
+        "deleted": false,
+        "videoId": "",
+        "fit": "cover",
+        "position": "50% 50%"
+      },
+      "home.category.kitchenware-home-utility": {
+        "videoId": "",
+        "fit": "cover",
+        "mediaType": "image",
+        "deleted": false,
+        "position": "50% 50%",
+        "alt": "Kitchenware & Home Utility",
+        "src": "media://img-1794906419408-6899ls"
+      },
+      "home.category.gn-pans": {
+        "deleted": false,
+        "mediaType": "image",
+        "fit": "cover",
+        "videoId": "",
+        "position": "50% 50%",
+        "alt": "GN Pans & Accessories",
+        "src": "media://img-1794906436629-jeuojl"
+      }
+    },
+    "categoryOverrides": {},
+    "updatedAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1794906464,
+      "nanoseconds": 830000000
+    },
+    "logoAlt": "SHREE DURGA STEELS Logo",
+    "logoUrl": "media://img-1794838404789-xll8y5",
+    "logoDeleted": false,
+    "logoPosition": "50% 50%"
+  }
+}

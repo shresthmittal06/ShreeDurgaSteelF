@@ -1,0 +1,85 @@
+{
+  "emailPlaceholder": "infoshridurgasteels@gmail.com",
+  "phonePlaceholder": "+91 9997890127",
+  "whatsappNumber": "+91 7017823423",
+  "addressPlaceholder": "In-front of Ganesh City Colony, Kalwari Road, Near FCI Godown, Hathras, Uttar Pradesh 204101",
+  "aboutOverview": "SHREE DURGA STEELS is a dedicated stainless steel manufacturing and B2B supply enterprise focused on delivering dependable kitchenware, home utility products, GN pans, and commercial kitchen equipment.",
+  "manufacturingCapabilities": "Advanced hydraulic presses, deep drawing machinery, precision sheet forming, robotic polishing, and stringent quality control.",
+  "qualityCommitment": "Food-grade AISI 304 & 200 series stainless steel certification, uniform gauge thickness, mirror and satin dual finishing.",
+  "industryExperience": "Decades of reliable manufacturing excellence supplying hospitality chains, commercial kitchens, caterers, and wholesale distributors nationwide.",
+  "customerCommitment": "We partner closely with wholesalers, distributors, hotels, restaurants, and commercial buyers to provide transparent specifications, reliable order fulfilment, and responsive quotation support.",
+  "showPlaceholderSlots": true,
+  "showPrices": true,
+  "footerConfig": {
+    "categoryLinks": [
+      {
+        "id": "cat-kitchenware",
+        "label": "Kitchenware & Home Utility",
+        "url": "/products/kitchenware-home-utility"
+      },
+      {
+        "id": "cat-gn-pans",
+        "label": "GN Pans & Accessories",
+        "url": "/products/gn-pans"
+      },
+      {
+        "id": "cat-commercial",
+        "label": "Commercial Kitchen Equipment",
+        "url": "/products/commercial-kitchen-equipment"
+      },
+      {
+        "id": "cat-all",
+        "label": "All Products",
+        "url": "/products"
+      }
+    ],
+    "companyLinks": [
+      {
+        "id": "comp-about",
+        "label": "About Us",
+        "url": "/about"
+      },
+      {
+        "id": "comp-quote",
+        "label": "Get a Quote",
+        "url": "/quote"
+      },
+      {
+        "id": "comp-admin",
+        "label": "Product & Enquiry Management",
+        "url": "/admin"
+      }
+    ],
+    "contactItems": [
+      {
+        "id": "cont-address",
+        "label": "Factory & Head Office",
+        "value": "In-front of Ganesh City Colony, Kalwari Road, Near FCI Godown, Hathras, Uttar Pradesh 204101",
+        "type": "address"
+      },
+      {
+        "id": "cont-email",
+        "label": "Email",
+        "value": "infoshridurgasteels@gmail.com",
+        "type": "email"
+      },
+      {
+        "id": "cont-phone",
+        "label": "Phone",
+        "value": "+91 9997890127",
+        "type": "phone"
+      },
+      {
+        "id": "contact-1794908292429",
+        "type": "phone",
+        "label": "Phone",
+        "value": "+91 8445077779"
+      }
+    ],
+    "whatsappNumber": "+91 7017823423",
+    "whatsappMessage": "Hello SHREE DURGA STEELS, I would like to enquire about your stainless steel products and request a quotation.",
+    "whatsappButtonLabel": "WhatsApp Enquiry",
+    "showWhatsAppButton": true
+  },
+  "updatedAt": null
+}

@@ -1,0 +1,4905 @@
+{
+  "kw-glass-stand": {
+    "id": "kw-glass-stand",
+    "name": "Glass Stand",
+    "category": "kitchenware-home-utility",
+    "subCategory": "Storage & Organisation",
+    "modelNumber": "6 – 24 Khana",
+    "mainImage": "media://img-1794838203038-k5roda",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "description": "Multi-compartment stainless steel Glass Stand in 6, 8, 12, 15, 18, and 24 Khana configurations for domestic and commercial dining storage.",
+    "availableSizes": [
+      "6 Khana",
+      "8 Khana",
+      "12 Khana",
+      "15 Khana",
+      "18 Khana",
+      "24 Khana"
+    ],
+    "specifications": [
+      {
+        "label": "Configurations",
+        "value": "6, 8, 12, 15, 18, 24 Khana"
+      },
+      {
+        "label": "Individual Weight Range",
+        "value": "530 gm – 1.350 kg (24 Khana on enquiry)"
+      },
+      {
+        "label": "Packaging Weight",
+        "value": "4.660 kg"
+      }
+    ],
+    "productType": "kitchenware",
+    "variants": [
+      {
+        "label": "6 Khana",
+        "modelCode": "6 Khana",
+        "individualWeight": "530 gm",
+        "packagingWeight": "4.660 kg"
+      },
+      {
+        "label": "8 Khana",
+        "modelCode": "8 Khana",
+        "individualWeight": "660 gm",
+        "packagingWeight": "4.660 kg"
+      },
+      {
+        "label": "12 Khana",
+        "modelCode": "12 Khana",
+        "individualWeight": "970 gm",
+        "packagingWeight": "4.660 kg"
+      },
+      {
+        "label": "15 Khana",
+        "modelCode": "15 Khana",
+        "individualWeight": "1.150 kg",
+        "packagingWeight": "4.660 kg"
+      },
+      {
+        "label": "18 Khana",
+        "modelCode": "18 Khana",
+        "individualWeight": "1.350 kg",
+        "packagingWeight": "4.660 kg"
+      },
+      {
+        "label": "24 Khana",
+        "modelCode": "24 Khana",
+        "individualWeight": "Contact for Details",
+        "packagingWeight": "4.660 kg"
+      }
+    ],
+    "packagingInfo": "Packaging weight: 4.660 kg",
+    "filterTags": [
+      "storage",
+      "household"
+    ],
+    "isAvailable": true,
+    "relatedProductIds": [
+      "kw-golden-glass-stand",
+      "kw-masal-dani-domestic",
+      "kw-gullak"
+    ],
+    "featured": true,
+    "sortOrder": 114,
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1794837629,
+      "nanoseconds": 821000000
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "isPlaceholder": false
+  },
+  "kw-barfi-tray": {
+    "id": "kw-barfi-tray",
+    "name": "Barfi Tray",
+    "category": "kitchenware-home-utility",
+    "subCategory": "Trays & Sweet Shop Products",
+    "productType": "kitchenware",
+    "filterTags": [
+      "trays",
+      "sweet-shop"
+    ],
+    "modelNumber": "NO. 1 – NO. 9",
+    "description": "Stainless steel Barfi Tray family manufactured in four distinct height/thickness groups (1\", 0.4\", 0.6\", and 1.2\") across standard mithai shop sizes NO. 1 through NO. 9.",
+    "availableSizes": [
+      "NO. 1",
+      "NO. 2",
+      "NO. 3",
+      "NO. 4",
+      "NO. 5",
+      "NO. 6",
+      "NO. 7",
+      "NO. 8",
+      "NO. 9"
+    ],
+    "dimensions": "8.4\" × 12.4\" × 0.4\" to 16.4\" × 22.4\" × 1\"",
+    "packagingInfo": "1\" Group: 1.720 kg (Nos. 1–3), 3.00 kg (Nos. 4–6), 4.050 kg (Nos. 7–9) | 0.4\" Group: 1.460 kg (Nos. 1–3) | 0.6\" Group: 1.800 kg (Nos. 1–3) | 1.2\" Group: 4.050 kg (Nos. 7–9)",
+    "isAvailable": true,
+    "variants": [
+      {
+        "label": "NO. 1 (1\" Height)",
+        "modelCode": "NO. 1",
+        "variantGroup": "1 inch",
+        "dimensionsIn": "8.4\" × 12.4\" × 1\"",
+        "individualWeight": "450 gm",
+        "packagingWeight": "1.720 kg (Nos. 1–3)"
+      },
+      {
+        "label": "NO. 2 (1\" Height)",
+        "modelCode": "NO. 2",
+        "variantGroup": "1 inch",
+        "dimensionsIn": "9.4\" × 13.4\" × 1\"",
+        "individualWeight": "590 gm",
+        "packagingWeight": "1.720 kg (Nos. 1–3)"
+      },
+      {
+        "label": "NO. 3 (1\" Height)",
+        "modelCode": "NO. 3",
+        "variantGroup": "1 inch",
+        "dimensionsIn": "10.4\" × 14.4\" × 1\"",
+        "individualWeight": "680 gm",
+        "packagingWeight": "1.720 kg (Nos. 1–3)"
+      },
+      {
+        "label": "NO. 4 (1\" Height)",
+        "modelCode": "NO. 4",
+        "variantGroup": "1 inch",
+        "dimensionsIn": "12.4\" × 16.4\" × 1\"",
+        "individualWeight": "900 gm",
+        "packagingWeight": "3.00 kg (Nos. 4–6)"
+      },
+      {
+        "label": "NO. 5 (1\" Height)",
+        "modelCode": "NO. 5",
+        "variantGroup": "1 inch",
+        "dimensionsIn": "13.4\" × 17.4\" × 1\"",
+        "individualWeight": "1.000 kg",
+        "packagingWeight": "3.00 kg (Nos. 4–6)"
+      },
+      {
+        "label": "NO. 6 (1\" Height)",
+        "modelCode": "NO. 6",
+        "variantGroup": "1 inch",
+        "dimensionsIn": "14.4\" × 18.4\" × 1\"",
+        "individualWeight": "1.100 kg",
+        "packagingWeight": "3.00 kg (Nos. 4–6)"
+      },
+      {
+        "label": "NO. 7 (1\" Height)",
+        "modelCode": "NO. 7",
+        "variantGroup": "1 inch",
+        "dimensionsIn": "14.4\" × 20.4\" × 1\"",
+        "individualWeight": "1.18 kg",
+        "packagingWeight": "4.050 kg (Nos. 7–9)"
+      },
+      {
+        "label": "NO. 8 (1\" Height)",
+        "modelCode": "NO. 8",
+        "variantGroup": "1 inch",
+        "dimensionsIn": "15.4\" × 21.4\" × 1\"",
+        "individualWeight": "1.380 kg",
+        "packagingWeight": "4.050 kg (Nos. 7–9)"
+      },
+      {
+        "label": "NO. 9 (1\" Height)",
+        "modelCode": "NO. 9",
+        "variantGroup": "1 inch",
+        "dimensionsIn": "16.4\" × 22.4\" × 1\"",
+        "individualWeight": "1.500 kg",
+        "packagingWeight": "4.050 kg (Nos. 7–9)"
+      },
+      {
+        "label": "NO. 1 (0.4\" Height)",
+        "modelCode": "NO. 1",
+        "variantGroup": "0.4 inch",
+        "dimensionsIn": "8.4\" × 12.4\" × 0.4\"",
+        "individualWeight": "370 gm",
+        "packagingWeight": "1.460 kg (Nos. 1–3)"
+      },
+      {
+        "label": "NO. 2 (0.4\" Height)",
+        "modelCode": "NO. 2",
+        "variantGroup": "0.4 inch",
+        "dimensionsIn": "9.4\" × 13.4\" × 0.4\"",
+        "individualWeight": "500 gm",
+        "packagingWeight": "1.460 kg (Nos. 1–3)"
+      },
+      {
+        "label": "NO. 3 (0.4\" Height)",
+        "modelCode": "NO. 3",
+        "variantGroup": "0.4 inch",
+        "dimensionsIn": "10.4\" × 14.4\" × 0.4\"",
+        "individualWeight": "600 gm",
+        "packagingWeight": "1.460 kg (Nos. 1–3)"
+      },
+      {
+        "label": "NO. 1 (0.6\" Height)",
+        "modelCode": "NO. 1",
+        "variantGroup": "0.6 inch",
+        "dimensionsIn": "9\" × 13\" × 0.6\"",
+        "individualWeight": "520 gm",
+        "packagingWeight": "1.800 kg (Nos. 1–3)"
+      },
+      {
+        "label": "NO. 2 (0.6\" Height)",
+        "modelCode": "NO. 2",
+        "variantGroup": "0.6 inch",
+        "dimensionsIn": "10\" × 14\" × 0.6\"",
+        "individualWeight": "600 gm",
+        "packagingWeight": "1.800 kg (Nos. 1–3)"
+      },
+      {
+        "label": "NO. 3 (0.6\" Height)",
+        "modelCode": "NO. 3",
+        "variantGroup": "0.6 inch",
+        "dimensionsIn": "11\" × 14\" × 0.6\"",
+        "individualWeight": "680 gm",
+        "packagingWeight": "1.800 kg (Nos. 1–3)"
+      },
+      {
+        "label": "NO. 7 (1.2\" Height)",
+        "modelCode": "NO. 7",
+        "variantGroup": "1.2 inch",
+        "dimensionsIn": "14\" × 20\" × 1.2\"",
+        "individualWeight": "1.200 kg",
+        "packagingWeight": "4.050 kg (Nos. 7–9)"
+      },
+      {
+        "label": "NO. 8 (1.2\" Height)",
+        "modelCode": "NO. 8",
+        "variantGroup": "1.2 inch",
+        "dimensionsIn": "15\" × 21\" × 1.2\"",
+        "individualWeight": "1.370 kg",
+        "packagingWeight": "4.050 kg (Nos. 7–9)"
+      },
+      {
+        "label": "NO. 9 (1.2\" Height)",
+        "modelCode": "NO. 9",
+        "variantGroup": "1.2 inch",
+        "dimensionsIn": "16\" × 22\" × 1.2\"",
+        "individualWeight": "1.500 kg",
+        "packagingWeight": "4.050 kg (Nos. 7–9)"
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Models Available",
+        "value": "NO. 1 to NO. 9 (across 4 thickness groups)"
+      },
+      {
+        "label": "Height / Thickness Options",
+        "value": "0.4\", 0.6\", 1\", 1.2\""
+      },
+      {
+        "label": "Individual Weight Range",
+        "value": "370 gm – 1.500 kg"
+      },
+      {
+        "label": "Packaging Weight (1\" Group)",
+        "value": "1.720 kg (1–3), 3.00 kg (4–6), 4.050 kg (7–9)"
+      }
+    ],
+    "relatedProductIds": [
+      "kw-tray-with-cover",
+      "kw-rasgulla-tray",
+      "kw-sandesh-tray"
+    ],
+    "featured": true,
+    "sortOrder": 101,
+    "mainImage": "media://img-1794851561957-wjnzon",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1794814588,
+      "nanoseconds": 661000000
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "kw-tray-with-cover": {
+    "id": "kw-tray-with-cover",
+    "name": "Tray With Cover",
+    "category": "kitchenware-home-utility",
+    "subCategory": "Trays & Sweet Shop Products",
+    "productType": "kitchenware",
+    "filterTags": [
+      "trays",
+      "sweet-shop"
+    ],
+    "modelNumber": "NO. 1 – 3, NO. 7 – 9",
+    "description": "Hygienic stainless steel display and transport tray supplied with matching cover in 2\" depth across NO. 1–3 and NO. 7–9 sizes.",
+    "availableSizes": [
+      "NO. 1",
+      "NO. 2",
+      "NO. 3",
+      "NO. 7",
+      "NO. 8",
+      "NO. 9"
+    ],
+    "dimensions": "9.4\" × 13.4\" × 2\" to 15.4\" × 21.4\" × 2\"",
+    "packagingInfo": "Nos. 1–3: 4.500 kg | Nos. 7–9: 8.100 kg",
+    "isAvailable": true,
+    "variants": [
+      {
+        "label": "NO. 1",
+        "modelCode": "NO. 1",
+        "dimensionsIn": "9.4\" × 13.4\" × 2\"",
+        "individualWeight": "1.340 kg",
+        "packagingWeight": "4.500 kg (Nos. 1–3)"
+      },
+      {
+        "label": "NO. 2",
+        "modelCode": "NO. 2",
+        "dimensionsIn": "10.4\" × 14.4\" × 2\"",
+        "individualWeight": "1.430 kg",
+        "packagingWeight": "4.500 kg (Nos. 1–3)"
+      },
+      {
+        "label": "NO. 3",
+        "modelCode": "NO. 3",
+        "dimensionsIn": "11.4\" × 15.4\" × 2\"",
+        "individualWeight": "1.700 kg",
+        "packagingWeight": "4.500 kg (Nos. 1–3)"
+      },
+      {
+        "label": "NO. 7",
+        "modelCode": "NO. 7",
+        "dimensionsIn": "13.4\" × 19.4\" × 2\"",
+        "individualWeight": "2.500 kg",
+        "packagingWeight": "8.100 kg (Nos. 7–9)"
+      },
+      {
+        "label": "NO. 8",
+        "modelCode": "NO. 8",
+        "dimensionsIn": "14.4\" × 20.4\" × 2\"",
+        "individualWeight": "2.700 kg",
+        "packagingWeight": "8.100 kg (Nos. 7–9)"
+      },
+      {
+        "label": "NO. 9",
+        "modelCode": "NO. 9",
+        "dimensionsIn": "15.4\" × 21.4\" × 2\"",
+        "individualWeight": "2.900 kg",
+        "packagingWeight": "8.100 kg (Nos. 7–9)"
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Models Available",
+        "value": "NO. 1, NO. 2, NO. 3, NO. 7, NO. 8, NO. 9"
+      },
+      {
+        "label": "Dimensions Range",
+        "value": "9.4\" × 13.4\" × 2\" – 15.4\" × 21.4\" × 2\""
+      },
+      {
+        "label": "Individual Weight Range",
+        "value": "1.340 kg – 2.900 kg"
+      },
+      {
+        "label": "Packaging Weight",
+        "value": "4.500 kg (Nos. 1–3) | 8.100 kg (Nos. 7–9)"
+      }
+    ],
+    "relatedProductIds": [
+      "kw-barfi-tray",
+      "kw-rasgulla-tray",
+      "kw-jumbo-tray"
+    ],
+    "featured": false,
+    "sortOrder": 102,
+    "mainImage": "media://img-1794852365418-0fbv9n",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "kw-rasgulla-tray": {
+    "id": "kw-rasgulla-tray",
+    "name": "Rasgulla Tray",
+    "category": "kitchenware-home-utility",
+    "subCategory": "Trays & Sweet Shop Products",
+    "productType": "kitchenware",
+    "filterTags": [
+      "trays",
+      "sweet-shop"
+    ],
+    "modelNumber": "NO. 1 – NO. 6",
+    "description": "Deep stainless steel Rasgulla Tray designed for syrup-based sweets and commercial mithai counters in 2.4\" and 2.6\" depths.",
+    "availableSizes": [
+      "NO. 1",
+      "NO. 2",
+      "NO. 3",
+      "NO. 4",
+      "NO. 5",
+      "NO. 6"
+    ],
+    "dimensions": "9\" × 13\" × 2.4\" to 13\" × 19\" × 2.6\"",
+    "packagingInfo": "Nos. 1–3: 3 kg | Nos. 4–6: 4.200 kg",
+    "isAvailable": true,
+    "variants": [
+      {
+        "label": "NO. 1",
+        "modelCode": "NO. 1",
+        "dimensionsIn": "9\" × 13\" × 2.4\"",
+        "individualWeight": "830 gm",
+        "packagingWeight": "3 kg (Nos. 1–3)"
+      },
+      {
+        "label": "NO. 2",
+        "modelCode": "NO. 2",
+        "dimensionsIn": "10\" × 14\" × 2.4\"",
+        "individualWeight": "1.050 kg",
+        "packagingWeight": "3 kg (Nos. 1–3)"
+      },
+      {
+        "label": "NO. 3",
+        "modelCode": "NO. 3",
+        "dimensionsIn": "11\" × 15\" × 2.4\"",
+        "individualWeight": "1.180 kg",
+        "packagingWeight": "3 kg (Nos. 1–3)"
+      },
+      {
+        "label": "NO. 4",
+        "modelCode": "NO. 4",
+        "dimensionsIn": "11\" × 17\" × 2.6\"",
+        "individualWeight": "1.260 kg",
+        "packagingWeight": "4.200 kg (Nos. 4–6)"
+      },
+      {
+        "label": "NO. 5",
+        "modelCode": "NO. 5",
+        "dimensionsIn": "12\" × 18\" × 2.6\"",
+        "individualWeight": "1.360 kg",
+        "packagingWeight": "4.200 kg (Nos. 4–6)"
+      },
+      {
+        "label": "NO. 6",
+        "modelCode": "NO. 6",
+        "dimensionsIn": "13\" × 19\" × 2.6\"",
+        "individualWeight": "1.500 kg",
+        "packagingWeight": "4.200 kg (Nos. 4–6)"
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Models Available",
+        "value": "NO. 1 to NO. 6"
+      },
+      {
+        "label": "Dimensions Range",
+        "value": "9\" × 13\" × 2.4\" – 13\" × 19\" × 2.6\""
+      },
+      {
+        "label": "Individual Weight Range",
+        "value": "830 gm – 1.500 kg"
+      },
+      {
+        "label": "Packaging Weight",
+        "value": "3 kg (Nos. 1–3) | 4.200 kg (Nos. 4–6)"
+      }
+    ],
+    "relatedProductIds": [
+      "kw-lasagna-tray",
+      "kw-barfi-tray",
+      "kw-taper-tray"
+    ],
+    "featured": false,
+    "sortOrder": 103,
+    "mainImage": "media://img-1794852383073-yj7a46",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "kw-taper-tray": {
+    "id": "kw-taper-tray",
+    "name": "Taper Tray (Long Tray)",
+    "category": "kitchenware-home-utility",
+    "subCategory": "Trays & Sweet Shop Products",
+    "productType": "kitchenware",
+    "filterTags": [
+      "trays",
+      "sweet-shop"
+    ],
+    "modelNumber": "NO. 1 – NO. 3",
+    "description": "Heavy-gauge long stainless steel Taper Tray suited for bulk mithai display counters, halwais, and catering preparation.",
+    "availableSizes": [
+      "NO. 1",
+      "NO. 2",
+      "NO. 3"
+    ],
+    "dimensions": "16\" × 28\" × 2.4\" to 18\" × 30\" × 2.4\"",
+    "packagingInfo": "Packaging weight: 7.81 kg",
+    "isAvailable": true,
+    "variants": [
+      {
+        "label": "NO. 1",
+        "modelCode": "NO. 1",
+        "dimensionsIn": "16\" × 28\" × 2.4\"",
+        "individualWeight": "2.400 kg",
+        "packagingWeight": "7.81 kg"
+      },
+      {
+        "label": "NO. 2",
+        "modelCode": "NO. 2",
+        "dimensionsIn": "17\" × 29\" × 2.4\"",
+        "individualWeight": "2.600 kg",
+        "packagingWeight": "7.81 kg"
+      },
+      {
+        "label": "NO. 3",
+        "modelCode": "NO. 3",
+        "dimensionsIn": "18\" × 30\" × 2.4\"",
+        "individualWeight": "2.810 kg",
+        "packagingWeight": "7.81 kg"
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Models Available",
+        "value": "NO. 1, NO. 2, NO. 3"
+      },
+      {
+        "label": "Dimensions Range",
+        "value": "16\" × 28\" × 2.4\" – 18\" × 30\" × 2.4\""
+      },
+      {
+        "label": "Individual Weight Range",
+        "value": "2.400 kg – 2.810 kg"
+      },
+      {
+        "label": "Packaging Weight",
+        "value": "7.81 kg"
+      }
+    ],
+    "relatedProductIds": [
+      "kw-jumbo-tray",
+      "kw-rasgulla-tray",
+      "kw-barfi-tray"
+    ],
+    "featured": false,
+    "sortOrder": 104,
+    "mainImage": "media://img-1794852395560-ojco7d",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "kw-jumbo-tray": {
+    "id": "kw-jumbo-tray",
+    "name": "Jumbo Tray",
+    "category": "kitchenware-home-utility",
+    "subCategory": "Trays & Sweet Shop Products",
+    "productType": "kitchenware",
+    "filterTags": [
+      "trays",
+      "sweet-shop"
+    ],
+    "modelNumber": "NO. 13 – NO. 15",
+    "description": "Extra-large Jumbo stainless steel tray in models NO. 13, NO. 14, and NO. 15 for high-volume sweet production and commercial kitchens.",
+    "availableSizes": [
+      "NO. 13",
+      "NO. 14",
+      "NO. 15"
+    ],
+    "dimensions": "17.4\" × 27.4\" to 19.4\" × 29.4\"",
+    "packagingInfo": "Packaging weight: 8.400 kg",
+    "isAvailable": true,
+    "variants": [
+      {
+        "label": "NO. 13",
+        "modelCode": "NO. 13",
+        "dimensionsIn": "17.4\" × 27.4\"",
+        "individualWeight": "2.600 kg",
+        "packagingWeight": "8.400 kg"
+      },
+      {
+        "label": "NO. 14",
+        "modelCode": "NO. 14",
+        "dimensionsIn": "18.4\" × 28.4\"",
+        "individualWeight": "2.780 kg",
+        "packagingWeight": "8.400 kg"
+      },
+      {
+        "label": "NO. 15",
+        "modelCode": "NO. 15",
+        "dimensionsIn": "19.4\" × 29.4\"",
+        "individualWeight": "2.980 kg",
+        "packagingWeight": "8.400 kg"
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Models Available",
+        "value": "NO. 13, NO. 14, NO. 15"
+      },
+      {
+        "label": "Dimensions Range",
+        "value": "17.4\" × 27.4\" – 19.4\" × 29.4\""
+      },
+      {
+        "label": "Individual Weight Range",
+        "value": "2.600 kg – 2.980 kg"
+      },
+      {
+        "label": "Packaging Weight",
+        "value": "8.400 kg"
+      }
+    ],
+    "relatedProductIds": [
+      "kw-taper-tray",
+      "kw-barfi-tray",
+      "kw-tray-with-cover"
+    ],
+    "featured": false,
+    "sortOrder": 105,
+    "mainImage": "media://img-1794852406809-sivxgx",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1794852407,
+      "nanoseconds": 516000000
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "kw-lasagna-tray": {
+    "id": "kw-lasagna-tray",
+    "name": "Lasagna Tray (MDS Rasgulla)",
+    "category": "kitchenware-home-utility",
+    "subCategory": "Trays & Sweet Shop Products",
+    "productType": "kitchenware",
+    "filterTags": [
+      "trays",
+      "sweet-shop"
+    ],
+    "modelNumber": "NO. 1 – NO. 3",
+    "description": "Multi-depth stainless steel Lasagna / MDS Rasgulla tray crafted for commercial mithai display and bakery preparation.",
+    "availableSizes": [
+      "NO. 1",
+      "NO. 2",
+      "NO. 3"
+    ],
+    "dimensions": "8\" × 12\" × 2.4\" to 10\" × 15\" × 3\"",
+    "packagingInfo": "Packaging weight: 3.000 kg",
+    "isAvailable": true,
+    "variants": [
+      {
+        "label": "NO. 1",
+        "modelCode": "NO. 1",
+        "dimensionsIn": "8\" × 12\" × 2.4\"",
+        "individualWeight": "820 gm",
+        "packagingWeight": "3.000 kg"
+      },
+      {
+        "label": "NO. 2",
+        "modelCode": "NO. 2",
+        "dimensionsIn": "9\" × 13\" × 2.6\"",
+        "individualWeight": "1.030 kg",
+        "packagingWeight": "3.000 kg"
+      },
+      {
+        "label": "NO. 3",
+        "modelCode": "NO. 3",
+        "dimensionsIn": "10\" × 15\" × 3\"",
+        "individualWeight": "1.180 kg",
+        "packagingWeight": "3.000 kg"
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Models Available",
+        "value": "NO. 1, NO. 2, NO. 3"
+      },
+      {
+        "label": "Dimensions Range",
+        "value": "8\" × 12\" × 2.4\" – 10\" × 15\" × 3\""
+      },
+      {
+        "label": "Individual Weight Range",
+        "value": "820 gm – 1.180 kg"
+      },
+      {
+        "label": "Packaging Weight",
+        "value": "3.000 kg"
+      }
+    ],
+    "relatedProductIds": [
+      "kw-rasgulla-tray",
+      "kw-barfi-tray",
+      "kw-dyna-tray"
+    ],
+    "featured": false,
+    "sortOrder": 106,
+    "mainImage": "media://img-1794852424032-vfhwxd",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1794852424,
+      "nanoseconds": 705000000
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "kw-dyna-tray": {
+    "id": "kw-dyna-tray",
+    "name": "Dyna Tray (Sandesh Tray With Handle)",
+    "category": "kitchenware-home-utility",
+    "subCategory": "Trays & Sweet Shop Products",
+    "productType": "kitchenware",
+    "filterTags": [
+      "trays",
+      "sweet-shop"
+    ],
+    "modelNumber": "NO. 1 – NO. 3",
+    "description": "Stainless steel Dyna / Sandesh tray integrated with side handles for convenient counter handling and serving.",
+    "availableSizes": [
+      "NO. 1",
+      "NO. 2",
+      "NO. 3"
+    ],
+    "dimensions": "9\" × 13\" to 11\" × 15\"",
+    "packagingInfo": "Packaging weight: 1.970 kg",
+    "isAvailable": true,
+    "variants": [
+      {
+        "label": "NO. 1",
+        "modelCode": "NO. 1",
+        "dimensionsIn": "9\" × 13\"",
+        "individualWeight": "520 gm",
+        "packagingWeight": "1.970 kg"
+      },
+      {
+        "label": "NO. 2",
+        "modelCode": "NO. 2",
+        "dimensionsIn": "10\" × 14\"",
+        "individualWeight": "600 gm",
+        "packagingWeight": "1.970 kg"
+      },
+      {
+        "label": "NO. 3",
+        "modelCode": "NO. 3",
+        "dimensionsIn": "11\" × 15\"",
+        "individualWeight": "850 gm",
+        "packagingWeight": "1.970 kg"
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Models Available",
+        "value": "NO. 1, NO. 2, NO. 3"
+      },
+      {
+        "label": "Dimensions Range",
+        "value": "9\" × 13\" – 11\" × 15\""
+      },
+      {
+        "label": "Individual Weight Range",
+        "value": "520 gm – 850 gm"
+      },
+      {
+        "label": "Packaging Weight",
+        "value": "1.970 kg"
+      }
+    ],
+    "relatedProductIds": [
+      "kw-sandesh-tray",
+      "kw-sandesh-tray-without-bidding",
+      "kw-mithai-tray-without-joint"
+    ],
+    "featured": false,
+    "sortOrder": 107,
+    "mainImage": "media://img-1794852436684-hzw6m2",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1794852437,
+      "nanoseconds": 466000000
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "kw-sandesh-tray-without-bidding": {
+    "id": "kw-sandesh-tray-without-bidding",
+    "name": "Sandesh Tray (Without Bidding)",
+    "category": "kitchenware-home-utility",
+    "subCategory": "Trays & Sweet Shop Products",
+    "productType": "kitchenware",
+    "filterTags": [
+      "trays",
+      "sweet-shop"
+    ],
+    "modelNumber": "NO. 1 – NO. 3",
+    "description": "Plain-edge Sandesh Tray without bidding across models NO. 1 to NO. 3, supplied with specified 1 PCS packing quantity.",
+    "availableSizes": [
+      "NO. 1",
+      "NO. 2",
+      "NO. 3"
+    ],
+    "dimensions": "8\" × 12\" to 10\" × 14\"",
+    "packagingInfo": "Packaging weight: 1.54 kg | Packing quantity: 1 PCS",
+    "isAvailable": true,
+    "variants": [
+      {
+        "label": "NO. 1",
+        "modelCode": "NO. 1",
+        "dimensionsIn": "8\" × 12\"",
+        "individualWeight": "420 gm",
+        "packagingWeight": "1.54 kg",
+        "packingQty": "1 PCS"
+      },
+      {
+        "label": "NO. 2",
+        "modelCode": "NO. 2",
+        "dimensionsIn": "9\" × 13\"",
+        "individualWeight": "510 gm",
+        "packagingWeight": "1.54 kg",
+        "packingQty": "1 PCS"
+      },
+      {
+        "label": "NO. 3",
+        "modelCode": "NO. 3",
+        "dimensionsIn": "10\" × 14\"",
+        "individualWeight": "610 gm",
+        "packagingWeight": "1.54 kg",
+        "packingQty": "1 PCS"
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Models Available",
+        "value": "NO. 1, NO. 2, NO. 3"
+      },
+      {
+        "label": "Dimensions Range",
+        "value": "8\" × 12\" – 10\" × 14\""
+      },
+      {
+        "label": "Individual Weight Range",
+        "value": "420 gm – 610 gm"
+      },
+      {
+        "label": "Packaging Weight & Qty",
+        "value": "1.54 kg | 1 PCS"
+      }
+    ],
+    "relatedProductIds": [
+      "kw-sandesh-tray",
+      "kw-dyna-tray",
+      "kw-mithai-tray-without-joint"
+    ],
+    "featured": false,
+    "sortOrder": 108,
+    "mainImage": "media://img-1794852463408-p0ekbe",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "kw-sandesh-tray": {
+    "id": "kw-sandesh-tray",
+    "name": "Sandesh Tray",
+    "category": "kitchenware-home-utility",
+    "subCategory": "Trays & Sweet Shop Products",
+    "productType": "kitchenware",
+    "filterTags": [
+      "trays",
+      "sweet-shop"
+    ],
+    "modelNumber": "NO. 1 – NO. 4",
+    "description": "Standard Sandesh Tray available in models NO. 1 through NO. 4 for traditional sweet merchandising and display counters.",
+    "availableSizes": [
+      "NO. 1",
+      "NO. 2",
+      "NO. 3",
+      "NO. 4"
+    ],
+    "dimensions": "7\" × 10\" to 11\" × 15\"",
+    "packagingInfo": "Packaging weight: 1.680 kg | Packing quantity: 1 PCS",
+    "isAvailable": true,
+    "variants": [
+      {
+        "label": "NO. 1",
+        "modelCode": "NO. 1",
+        "dimensionsIn": "7\" × 10\"",
+        "individualWeight": "330 gm",
+        "packagingWeight": "1.680 kg",
+        "packingQty": "1 PCS"
+      },
+      {
+        "label": "NO. 2",
+        "modelCode": "NO. 2",
+        "dimensionsIn": "8\" × 12\"",
+        "individualWeight": "450 gm",
+        "packagingWeight": "1.680 kg",
+        "packingQty": "1 PCS"
+      },
+      {
+        "label": "NO. 3",
+        "modelCode": "NO. 3",
+        "dimensionsIn": "9\" × 14\"",
+        "individualWeight": "520 gm",
+        "packagingWeight": "1.680 kg",
+        "packingQty": "1 PCS"
+      },
+      {
+        "label": "NO. 4",
+        "modelCode": "NO. 4",
+        "dimensionsIn": "11\" × 15\"",
+        "individualWeight": "710 gm",
+        "packagingWeight": "1.680 kg",
+        "packingQty": "1 PCS"
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Models Available",
+        "value": "NO. 1, NO. 2, NO. 3, NO. 4"
+      },
+      {
+        "label": "Dimensions Range",
+        "value": "7\" × 10\" – 11\" × 15\""
+      },
+      {
+        "label": "Individual Weight Range",
+        "value": "330 gm – 710 gm"
+      },
+      {
+        "label": "Packaging Weight & Qty",
+        "value": "1.680 kg | 1 PCS"
+      }
+    ],
+    "relatedProductIds": [
+      "kw-sandesh-tray-without-bidding",
+      "kw-dyna-tray",
+      "kw-barfi-tray"
+    ],
+    "featured": false,
+    "sortOrder": 109,
+    "mainImage": "media://img-1794852473190-sko799",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "kw-mithai-tray-without-joint": {
+    "id": "kw-mithai-tray-without-joint",
+    "name": "Mithai Tray (Without Joint)",
+    "category": "kitchenware-home-utility",
+    "subCategory": "Trays & Sweet Shop Products",
+    "productType": "kitchenware",
+    "filterTags": [
+      "trays",
+      "sweet-shop"
+    ],
+    "modelNumber": "NO. 1 – NO. 3",
+    "description": "Seamless joint-free stainless steel Mithai Tray in NO. 1 to NO. 3 sizes, engineered for hygienic sweet display.",
+    "availableSizes": [
+      "NO. 1",
+      "NO. 2",
+      "NO. 3"
+    ],
+    "dimensions": "8\" × 11\" to 10\" × 15\"",
+    "packagingInfo": "Packaging weight: 1.680 kg | Packing quantity: 1 PCS",
+    "isAvailable": true,
+    "variants": [
+      {
+        "label": "NO. 1",
+        "modelCode": "NO. 1",
+        "dimensionsIn": "8\" × 11\"",
+        "individualWeight": "400 gm",
+        "packagingWeight": "1.680 kg",
+        "packingQty": "1 PCS"
+      },
+      {
+        "label": "NO. 2",
+        "modelCode": "NO. 2",
+        "dimensionsIn": "9\" × 12\"",
+        "individualWeight": "570 gm",
+        "packagingWeight": "1.680 kg",
+        "packingQty": "1 PCS"
+      },
+      {
+        "label": "NO. 3",
+        "modelCode": "NO. 3",
+        "dimensionsIn": "10\" × 15\"",
+        "individualWeight": "710 gm",
+        "packagingWeight": "1.680 kg",
+        "packingQty": "1 PCS"
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Models Available",
+        "value": "NO. 1, NO. 2, NO. 3"
+      },
+      {
+        "label": "Dimensions Range",
+        "value": "8\" × 11\" – 10\" × 15\""
+      },
+      {
+        "label": "Individual Weight Range",
+        "value": "400 gm – 710 gm"
+      },
+      {
+        "label": "Packaging Weight & Qty",
+        "value": "1.680 kg | 1 PCS"
+      }
+    ],
+    "relatedProductIds": [
+      "kw-barfi-tray",
+      "kw-sandesh-tray",
+      "kw-samosa-tray"
+    ],
+    "featured": false,
+    "sortOrder": 110,
+    "mainImage": "media://img-1794852483403-t3zzks",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "kw-samosa-tray": {
+    "id": "kw-samosa-tray",
+    "name": "Samosa Tray",
+    "category": "kitchenware-home-utility",
+    "subCategory": "Trays & Sweet Shop Products",
+    "productType": "kitchenware",
+    "filterTags": [
+      "trays",
+      "sweet-shop"
+    ],
+    "modelNumber": "NO. 1 – NO. 3",
+    "description": "Stainless steel snack and savouries display tray in 1\" depth across models NO. 1, NO. 2, and NO. 3.",
+    "availableSizes": [
+      "NO. 1",
+      "NO. 2",
+      "NO. 3"
+    ],
+    "dimensions": "7\" × 10\" × 1\" to 9\" × 14\" × 1\"",
+    "packagingInfo": "Packaging weight: 1.500 kg",
+    "isAvailable": true,
+    "variants": [
+      {
+        "label": "NO. 1",
+        "modelCode": "NO. 1",
+        "dimensionsIn": "7\" × 10\" × 1\"",
+        "individualWeight": "450 gm",
+        "packagingWeight": "1.500 kg"
+      },
+      {
+        "label": "NO. 2",
+        "modelCode": "NO. 2",
+        "dimensionsIn": "8\" × 12\" × 1\"",
+        "individualWeight": "525 gm",
+        "packagingWeight": "1.500 kg"
+      },
+      {
+        "label": "NO. 3",
+        "modelCode": "NO. 3",
+        "dimensionsIn": "9\" × 14\" × 1\"",
+        "individualWeight": "600 gm",
+        "packagingWeight": "1.500 kg"
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Models Available",
+        "value": "NO. 1, NO. 2, NO. 3"
+      },
+      {
+        "label": "Dimensions Range",
+        "value": "7\" × 10\" × 1\" – 9\" × 14\" × 1\""
+      },
+      {
+        "label": "Individual Weight Range",
+        "value": "450 gm – 600 gm"
+      },
+      {
+        "label": "Packaging Weight",
+        "value": "1.500 kg"
+      }
+    ],
+    "relatedProductIds": [
+      "kw-barfi-tray",
+      "kw-mini-ladoo-tray",
+      "kw-mithai-tray-without-joint"
+    ],
+    "featured": false,
+    "sortOrder": 111,
+    "mainImage": "media://img-1794852497003-6y62iu",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "kw-mini-ladoo-tray": {
+    "id": "kw-mini-ladoo-tray",
+    "name": "Mini Ladoo Tray",
+    "category": "kitchenware-home-utility",
+    "subCategory": "Trays & Sweet Shop Products",
+    "productType": "kitchenware",
+    "filterTags": [
+      "trays",
+      "sweet-shop"
+    ],
+    "modelNumber": "NO. 1 – NO. 3",
+    "description": "Compact stainless steel Mini Ladoo Tray available in models NO. 1, NO. 2, and NO. 3. Contact our team for detailed dimensions and weights.",
+    "availableSizes": [
+      "NO. 1",
+      "NO. 2",
+      "NO. 3"
+    ],
+    "dimensions": "Contact for Details",
+    "isAvailable": true,
+    "variants": [
+      {
+        "label": "NO. 1",
+        "modelCode": "NO. 1",
+        "dimensionsIn": "Contact for Details",
+        "individualWeight": "Contact for Details"
+      },
+      {
+        "label": "NO. 2",
+        "modelCode": "NO. 2",
+        "dimensionsIn": "Contact for Details",
+        "individualWeight": "Contact for Details"
+      },
+      {
+        "label": "NO. 3",
+        "modelCode": "NO. 3",
+        "dimensionsIn": "Contact for Details",
+        "individualWeight": "Contact for Details"
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Models Available",
+        "value": "NO. 1, NO. 2, NO. 3"
+      },
+      {
+        "label": "Dimensions",
+        "value": "Contact for Details"
+      },
+      {
+        "label": "Individual Weight",
+        "value": "Contact for Details"
+      }
+    ],
+    "relatedProductIds": [
+      "kw-samosa-tray",
+      "kw-barfi-tray",
+      "kw-sandesh-tray"
+    ],
+    "featured": false,
+    "sortOrder": 112,
+    "mainImage": "media://img-1794852509012-a291nw",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "kw-gullak": {
+    "id": "kw-gullak",
+    "name": "Gullak",
+    "category": "kitchenware-home-utility",
+    "subCategory": "Storage & Organisation",
+    "productType": "kitchenware",
+    "filterTags": [
+      "storage",
+      "household"
+    ],
+    "modelNumber": "NO. 1 – NO. 3",
+    "description": "Stainless steel saving box (Gullak) available in NO. 1, NO. 2, and NO. 3 sizes for retail and wholesale home utility distribution.",
+    "availableSizes": [
+      "NO. 1",
+      "NO. 2",
+      "NO. 3"
+    ],
+    "dimensions": "5\" × 3.4\" to 7\" × 5\"",
+    "packagingInfo": "Packaging weight: 1.00 kg",
+    "isAvailable": true,
+    "variants": [
+      {
+        "label": "NO. 1",
+        "modelCode": "NO. 1",
+        "dimensionsIn": "5\" × 3.4\"",
+        "individualWeight": "240 gm",
+        "packagingWeight": "1.00 kg"
+      },
+      {
+        "label": "NO. 2",
+        "modelCode": "NO. 2",
+        "dimensionsIn": "6\" × 4.4\"",
+        "individualWeight": "330 gm",
+        "packagingWeight": "1.00 kg"
+      },
+      {
+        "label": "NO. 3",
+        "modelCode": "NO. 3",
+        "dimensionsIn": "7\" × 5\"",
+        "individualWeight": "430 gm",
+        "packagingWeight": "1.00 kg"
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Models Available",
+        "value": "NO. 1, NO. 2, NO. 3"
+      },
+      {
+        "label": "Dimensions Range",
+        "value": "5\" × 3.4\" – 7\" × 5\""
+      },
+      {
+        "label": "Individual Weight Range",
+        "value": "240 gm – 430 gm"
+      },
+      {
+        "label": "Packaging Weight",
+        "value": "1.00 kg"
+      }
+    ],
+    "relatedProductIds": [
+      "kw-pooja-peti",
+      "kw-glass-stand",
+      "kw-jhava-chonga"
+    ],
+    "featured": false,
+    "sortOrder": 113,
+    "mainImage": "media://img-1794852518429-7saao4",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "kw-jhava-chonga": {
+    "id": "kw-jhava-chonga",
+    "name": "Jhava (Chonga)",
+    "category": "kitchenware-home-utility",
+    "subCategory": "Storage & Organisation",
+    "productType": "kitchenware",
+    "filterTags": [
+      "storage",
+      "household"
+    ],
+    "modelNumber": "0 No. – 7 No.",
+    "description": "Complete 8-size range of stainless steel Jhava (Chonga) from 0 No. to 7 No. for household and trade utility applications.",
+    "availableSizes": [
+      "0 No.",
+      "1 No.",
+      "2 No.",
+      "3 No.",
+      "4 No.",
+      "5 No.",
+      "6 No.",
+      "7 No."
+    ],
+    "dimensions": "1.4\" × 4.4\" to 5\" × 17\"",
+    "packagingInfo": "Packaging weight: 2.014 kg",
+    "isAvailable": true,
+    "variants": [
+      {
+        "label": "0 No.",
+        "modelCode": "0 No.",
+        "dimensionsIn": "1.4\" × 4.4\"",
+        "individualWeight": "46 gm",
+        "packagingWeight": "2.014 kg"
+      },
+      {
+        "label": "1 No.",
+        "modelCode": "1 No.",
+        "dimensionsIn": "2\" × 6.4\"",
+        "individualWeight": "77 gm",
+        "packagingWeight": "2.014 kg"
+      },
+      {
+        "label": "2 No.",
+        "modelCode": "2 No.",
+        "dimensionsIn": "2.4\" × 8.4\"",
+        "individualWeight": "112 gm",
+        "packagingWeight": "2.014 kg"
+      },
+      {
+        "label": "3 No.",
+        "modelCode": "3 No.",
+        "dimensionsIn": "3\" × 9.4\"",
+        "individualWeight": "174 gm",
+        "packagingWeight": "2.014 kg"
+      },
+      {
+        "label": "4 No.",
+        "modelCode": "4 No.",
+        "dimensionsIn": "3.4\" × 11\"",
+        "individualWeight": "265 gm",
+        "packagingWeight": "2.014 kg"
+      },
+      {
+        "label": "5 No.",
+        "modelCode": "5 No.",
+        "dimensionsIn": "4\" × 13\"",
+        "individualWeight": "380 gm",
+        "packagingWeight": "2.014 kg"
+      },
+      {
+        "label": "6 No.",
+        "modelCode": "6 No.",
+        "dimensionsIn": "4.4\" × 15\"",
+        "individualWeight": "450 gm",
+        "packagingWeight": "2.014 kg"
+      },
+      {
+        "label": "7 No.",
+        "modelCode": "7 No.",
+        "dimensionsIn": "5\" × 17\"",
+        "individualWeight": "510 gm",
+        "packagingWeight": "2.014 kg"
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Models Available",
+        "value": "0 No. to 7 No."
+      },
+      {
+        "label": "Dimensions Range",
+        "value": "1.4\" × 4.4\" – 5\" × 17\""
+      },
+      {
+        "label": "Individual Weight Range",
+        "value": "46 gm – 510 gm"
+      },
+      {
+        "label": "Packaging Weight",
+        "value": "2.014 kg"
+      }
+    ],
+    "relatedProductIds": [
+      "kw-gullak",
+      "kw-dust-lifter",
+      "kw-masal-dani-domestic"
+    ],
+    "featured": false,
+    "sortOrder": 115,
+    "mainImage": "media://img-1794852529412-j875i4",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "kw-masal-dani-domestic": {
+    "id": "kw-masal-dani-domestic",
+    "name": "Masal Dani (Domestic)",
+    "category": "kitchenware-home-utility",
+    "subCategory": "Storage & Organisation",
+    "productType": "kitchenware",
+    "filterTags": [
+      "storage",
+      "household"
+    ],
+    "modelNumber": "6 Boxes / 9 Boxes",
+    "description": "Rectangular domestic stainless steel spice organiser (Masal Dani) available in 6-box and 9-box formats.",
+    "availableSizes": [
+      "6 Boxes",
+      "9 Boxes"
+    ],
+    "dimensions": "8\" × 12\" × 4\" & 12\" × 12\" × 4\"",
+    "isAvailable": true,
+    "variants": [
+      {
+        "label": "6 Boxes",
+        "modelCode": "6 Boxes",
+        "dimensionsIn": "8\" × 12\" × 4\"",
+        "individualWeight": "850 gm"
+      },
+      {
+        "label": "9 Boxes",
+        "modelCode": "9 Boxes",
+        "dimensionsIn": "12\" × 12\" × 4\"",
+        "individualWeight": "1.100 kg"
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Variants",
+        "value": "6 Boxes, 9 Boxes"
+      },
+      {
+        "label": "Dimensions",
+        "value": "8\" × 12\" × 4\" & 12\" × 12\" × 4\""
+      },
+      {
+        "label": "Individual Weight",
+        "value": "850 gm / 1.100 kg"
+      }
+    ],
+    "relatedProductIds": [
+      "kw-masal-dani-commercial",
+      "kw-masal-dani-jumbo",
+      "kw-glass-stand"
+    ],
+    "featured": false,
+    "sortOrder": 116,
+    "mainImage": "media://img-1794852537905-f348iv",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "kw-masal-dani-commercial": {
+    "id": "kw-masal-dani-commercial",
+    "name": "Masal Dani (Commercial)",
+    "category": "kitchenware-home-utility",
+    "subCategory": "Storage & Organisation",
+    "productType": "kitchenware",
+    "filterTags": [
+      "storage",
+      "household"
+    ],
+    "modelNumber": "4 – 16 Boxes",
+    "description": "Heavy-duty commercial Masal Dani engineered for hotel kitchens, restaurants, and catering prep stations in 4, 6, 8, 9, 12, and 16 box capacities.",
+    "availableSizes": [
+      "4 Boxes",
+      "6 Boxes",
+      "8 Boxes",
+      "9 Boxes",
+      "12 Boxes",
+      "16 Boxes"
+    ],
+    "dimensions": "8\" × 8\" × 4\" to 16\" × 16\" × 4\"",
+    "isAvailable": true,
+    "variants": [
+      {
+        "label": "4 Boxes",
+        "modelCode": "4 Boxes",
+        "dimensionsIn": "8\" × 8\" × 4\"",
+        "individualWeight": "1.600 kg"
+      },
+      {
+        "label": "6 Boxes",
+        "modelCode": "6 Boxes",
+        "dimensionsIn": "8\" × 12\" × 4\"",
+        "individualWeight": "2.300 kg"
+      },
+      {
+        "label": "8 Boxes",
+        "modelCode": "8 Boxes",
+        "dimensionsIn": "8\" × 16\" × 4\"",
+        "individualWeight": "3.500 kg"
+      },
+      {
+        "label": "9 Boxes",
+        "modelCode": "9 Boxes",
+        "dimensionsIn": "12\" × 12\" × 4\"",
+        "individualWeight": "3.300 kg"
+      },
+      {
+        "label": "12 Boxes",
+        "modelCode": "12 Boxes",
+        "dimensionsIn": "12\" × 16\" × 4\"",
+        "individualWeight": "4.170 kg"
+      },
+      {
+        "label": "16 Boxes",
+        "modelCode": "16 Boxes",
+        "dimensionsIn": "16\" × 16\" × 4\"",
+        "individualWeight": "5.900 kg"
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Variants",
+        "value": "4, 6, 8, 9, 12, 16 Boxes"
+      },
+      {
+        "label": "Dimensions Range",
+        "value": "8\" × 8\" × 4\" – 16\" × 16\" × 4\""
+      },
+      {
+        "label": "Individual Weight Range",
+        "value": "1.600 kg – 5.900 kg"
+      }
+    ],
+    "relatedProductIds": [
+      "kw-masal-dani-jumbo",
+      "kw-masal-dani-domestic",
+      "kw-glass-stand"
+    ],
+    "featured": false,
+    "sortOrder": 117,
+    "mainImage": "media://img-1794852546611-slrjl9",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "kw-masal-dani-jumbo": {
+    "id": "kw-masal-dani-jumbo",
+    "name": "Masal Dani (Jumbo)",
+    "category": "kitchenware-home-utility",
+    "subCategory": "Storage & Organisation",
+    "productType": "kitchenware",
+    "filterTags": [
+      "storage",
+      "household"
+    ],
+    "modelNumber": "6 / 9 / 12 Boxes",
+    "description": "Extra-deep 5.4\" Jumbo commercial spice box system in 6, 9, and 12 box layouts for large-scale foodservice operations.",
+    "availableSizes": [
+      "6 Boxes",
+      "9 Boxes",
+      "12 Boxes"
+    ],
+    "dimensions": "10.4\" × 15.4\" × 5.4\" to 15.4\" × 20.4\" × 5.4\"",
+    "isAvailable": true,
+    "variants": [
+      {
+        "label": "6 Boxes",
+        "modelCode": "6 Boxes",
+        "dimensionsIn": "10.4\" × 15.4\" × 5.4\"",
+        "individualWeight": "4.600 kg"
+      },
+      {
+        "label": "9 Boxes",
+        "modelCode": "9 Boxes",
+        "dimensionsIn": "15.4\" × 15.4\" × 5.4\"",
+        "individualWeight": "6.400 kg"
+      },
+      {
+        "label": "12 Boxes",
+        "modelCode": "12 Boxes",
+        "dimensionsIn": "15.4\" × 20.4\" × 5.4\"",
+        "individualWeight": "8.170 kg"
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Variants",
+        "value": "6 Boxes, 9 Boxes, 12 Boxes"
+      },
+      {
+        "label": "Dimensions Range",
+        "value": "10.4\" × 15.4\" × 5.4\" – 15.4\" × 20.4\" × 5.4\""
+      },
+      {
+        "label": "Individual Weight Range",
+        "value": "4.600 kg – 8.170 kg"
+      }
+    ],
+    "relatedProductIds": [
+      "kw-masal-dani-commercial",
+      "kw-masal-dani-domestic",
+      "kw-jumbo-tray"
+    ],
+    "featured": false,
+    "sortOrder": 118,
+    "mainImage": "media://img-1794852557159-g8gvt0",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "kw-dust-lifter": {
+    "id": "kw-dust-lifter",
+    "name": "Dust Lifter",
+    "category": "kitchenware-home-utility",
+    "subCategory": "Storage & Organisation",
+    "productType": "kitchenware",
+    "filterTags": [
+      "storage",
+      "household"
+    ],
+    "modelNumber": "Standard",
+    "description": "Stainless steel Dust Lifter for domestic, hospitality, and commercial utility cleaning. Contact our team for current specifications and bulk packing details.",
+    "dimensions": "Contact for Details",
+    "isAvailable": true,
+    "variants": [
+      {
+        "label": "Standard",
+        "modelCode": "Standard",
+        "dimensionsIn": "Contact for Details",
+        "individualWeight": "Contact for Details"
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Configuration",
+        "value": "Standard Utility Listing"
+      },
+      {
+        "label": "Dimensions & Weight",
+        "value": "Contact for Details"
+      }
+    ],
+    "relatedProductIds": [
+      "kw-jhava-chonga",
+      "kw-gullak",
+      "kw-glass-stand"
+    ],
+    "featured": false,
+    "sortOrder": 119,
+    "mainImage": "media://img-1794852568691-k0cao0",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "kw-pooja-peti": {
+    "id": "kw-pooja-peti",
+    "name": "Pooja Peti",
+    "category": "kitchenware-home-utility",
+    "subCategory": "Pooja & Household Products",
+    "productType": "kitchenware",
+    "filterTags": [
+      "pooja",
+      "household"
+    ],
+    "modelNumber": "0 No. – 7 No.",
+    "description": "Stainless steel Pooja Peti storage chest available across 8 graduated sizes from 0 No. through 7 No.",
+    "availableSizes": [
+      "0 No.",
+      "1 No.",
+      "2 No.",
+      "3 No.",
+      "4 No.",
+      "5 No.",
+      "6 No.",
+      "7 No."
+    ],
+    "dimensions": "4\" × 7\" × 2.4\" to 11\" × 14\" × 4.2\"",
+    "packagingInfo": "Packaging weight: 6.95 kg",
+    "isAvailable": true,
+    "variants": [
+      {
+        "label": "0 No.",
+        "modelCode": "0 No.",
+        "dimensionsIn": "4\" × 7\" × 2.4\"",
+        "individualWeight": "310 gm",
+        "packagingWeight": "6.95 kg"
+      },
+      {
+        "label": "1 No.",
+        "modelCode": "1 No.",
+        "dimensionsIn": "5\" × 8\" × 2.4\"",
+        "individualWeight": "380 gm",
+        "packagingWeight": "6.95 kg"
+      },
+      {
+        "label": "2 No.",
+        "modelCode": "2 No.",
+        "dimensionsIn": "6\" × 9\" × 2.6\"",
+        "individualWeight": "460 gm",
+        "packagingWeight": "6.95 kg"
+      },
+      {
+        "label": "3 No.",
+        "modelCode": "3 No.",
+        "dimensionsIn": "7\" × 10\" × 3\"",
+        "individualWeight": "550 gm",
+        "packagingWeight": "6.95 kg"
+      },
+      {
+        "label": "4 No.",
+        "modelCode": "4 No.",
+        "dimensionsIn": "8\" × 11\" × 3.2\"",
+        "individualWeight": "1 kg",
+        "packagingWeight": "6.95 kg"
+      },
+      {
+        "label": "5 No.",
+        "modelCode": "5 No.",
+        "dimensionsIn": "9\" × 12\" × 3.4\"",
+        "individualWeight": "1.2 kg",
+        "packagingWeight": "6.95 kg"
+      },
+      {
+        "label": "6 No.",
+        "modelCode": "6 No.",
+        "dimensionsIn": "10\" × 13\" × 4\"",
+        "individualWeight": "1.4 kg",
+        "packagingWeight": "6.95 kg"
+      },
+      {
+        "label": "7 No.",
+        "modelCode": "7 No.",
+        "dimensionsIn": "11\" × 14\" × 4.2\"",
+        "individualWeight": "1.65 kg",
+        "packagingWeight": "6.95 kg"
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Models Available",
+        "value": "0 No. to 7 No."
+      },
+      {
+        "label": "Dimensions Range",
+        "value": "4\" × 7\" × 2.4\" – 11\" × 14\" × 4.2\""
+      },
+      {
+        "label": "Individual Weight Range",
+        "value": "310 gm – 1.65 kg"
+      },
+      {
+        "label": "Packaging Weight",
+        "value": "6.95 kg"
+      }
+    ],
+    "relatedProductIds": [
+      "kw-chowki-patta",
+      "kw-gullak",
+      "kw-golden-tray"
+    ],
+    "featured": false,
+    "sortOrder": 120,
+    "mainImage": "media://img-1794852581072-03lnoz",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "kw-chowki-patta": {
+    "id": "kw-chowki-patta",
+    "name": "Chowki & Patta",
+    "category": "kitchenware-home-utility",
+    "subCategory": "Pooja & Household Products",
+    "productType": "kitchenware",
+    "filterTags": [
+      "pooja",
+      "household"
+    ],
+    "modelNumber": "Patla / Chowki",
+    "description": "Stainless steel Pooja & Household Chowki and Patla range offered in Small, Medium, and Large Patla sizes plus Small and Large square Chowki platforms.",
+    "availableSizes": [
+      "Patla Small",
+      "Patla Medium",
+      "Patla Large",
+      "Chowki Small",
+      "Chowki Large"
+    ],
+    "dimensions": "Patla: 9\"×13\"×3\" – 11\"×15\"×3\" | Chowki: 14.4\"×14.4\"×6\" – 16.4\"×16.4\"×6\"",
+    "isAvailable": true,
+    "variants": [
+      {
+        "label": "Patla — Small",
+        "modelCode": "Small",
+        "variantGroup": "Patla",
+        "dimensionsIn": "9\" × 13\" × 3\""
+      },
+      {
+        "label": "Patla — Medium",
+        "modelCode": "Medium",
+        "variantGroup": "Patla",
+        "dimensionsIn": "10\" × 14\" × 3\""
+      },
+      {
+        "label": "Patla — Large",
+        "modelCode": "Large",
+        "variantGroup": "Patla",
+        "dimensionsIn": "11\" × 15\" × 3\""
+      },
+      {
+        "label": "Chowki — Small",
+        "modelCode": "Small",
+        "variantGroup": "Chowki",
+        "dimensionsIn": "14.4\" × 14.4\" × 6\""
+      },
+      {
+        "label": "Chowki — Large",
+        "modelCode": "Large",
+        "variantGroup": "Chowki",
+        "dimensionsIn": "16.4\" × 16.4\" × 6\""
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Patla Sizes",
+        "value": "Small (9\"×13\"×3\"), Medium (10\"×14\"×3\"), Large (11\"×15\"×3\")"
+      },
+      {
+        "label": "Chowki Sizes",
+        "value": "Small (14.4\"×14.4\"×6\"), Large (16.4\"×16.4\"×6\")"
+      }
+    ],
+    "relatedProductIds": [
+      "kw-pooja-peti",
+      "kw-golden-tray",
+      "kw-golden-glass-stand"
+    ],
+    "featured": false,
+    "sortOrder": 121,
+    "mainImage": "media://img-1794852591100-mtqunv",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "kw-golden-glass-stand": {
+    "id": "kw-golden-glass-stand",
+    "name": "Golden Glass Stand",
+    "category": "kitchenware-home-utility",
+    "subCategory": "Special Products",
+    "productType": "kitchenware",
+    "filterTags": [
+      "special",
+      "storage"
+    ],
+    "modelNumber": "12 Khana",
+    "description": "Specialty 12 Khana Golden Glass Stand for festive, hospitality, and giftware presentation. Contact for full specifications.",
+    "availableSizes": [
+      "12 Khana"
+    ],
+    "dimensions": "Contact for Details",
+    "isAvailable": true,
+    "variants": [
+      {
+        "label": "12 Khana",
+        "modelCode": "12 Khana",
+        "dimensionsIn": "Contact for Details",
+        "individualWeight": "Contact for Details"
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Available Variant",
+        "value": "12 Khana"
+      },
+      {
+        "label": "Dimensions & Weight",
+        "value": "Contact for Details"
+      }
+    ],
+    "relatedProductIds": [
+      "kw-glass-stand",
+      "kw-golden-tray",
+      "kw-bread-mould"
+    ],
+    "featured": false,
+    "sortOrder": 123,
+    "mainImage": "media://img-1794852619118-9vfy1p",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "kw-bread-mould": {
+    "id": "kw-bread-mould",
+    "name": "Bread Mould",
+    "category": "kitchenware-home-utility",
+    "subCategory": "Special Products",
+    "productType": "kitchenware",
+    "filterTags": [
+      "special",
+      "sweet-shop"
+    ],
+    "modelNumber": "1 Size",
+    "description": "Stainless steel Bread Mould offered in 1 standard size for bakeries, commercial kitchens, and foodservice distributors.",
+    "availableSizes": [
+      "1 Size"
+    ],
+    "dimensions": "Contact for Details",
+    "isAvailable": true,
+    "variants": [
+      {
+        "label": "1 Size",
+        "modelCode": "1 Size",
+        "dimensionsIn": "Contact for Details",
+        "individualWeight": "Contact for Details"
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Available Variant",
+        "value": "1 Size"
+      },
+      {
+        "label": "Dimensions & Weight",
+        "value": "Contact for Details"
+      }
+    ],
+    "relatedProductIds": [
+      "kw-barfi-tray",
+      "kw-taper-tray",
+      "kw-golden-tray"
+    ],
+    "featured": false,
+    "sortOrder": 124,
+    "mainImage": "media://img-1794852632966-x0oll1",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "gn-pan-2-1": {
+    "id": "gn-pan-2-1",
+    "name": "GN Pan 2/1",
+    "category": "gn-pans",
+    "subCategory": "GN Pan 2/1",
+    "productType": "gn-pan",
+    "gnSize": "2/1",
+    "matchingLidId": "gn-lid-2-1",
+    "modelNumber": "GN-2/1",
+    "description": "Full-size double gastronorm stainless steel GN Pan 2/1 with overall footprint 650 × 530 mm, available in 65 mm, 100 mm, 150 mm, and 200 mm depths.",
+    "availableSizes": [
+      "65 MM",
+      "100 MM",
+      "150 MM",
+      "200 MM"
+    ],
+    "dimensions": "650 × 530 mm",
+    "materialDetails": "Stainless Steel",
+    "variants": [
+      {
+        "label": "2/1 × 65 MM",
+        "depthMm": "65 MM",
+        "dimensionsMm": "650 × 530 × 65",
+        "dimensionsIn": "25.60 × 20.80 × 2.50",
+        "capacity": "19 L",
+        "netPrice": 1642
+      },
+      {
+        "label": "2/1 × 100 MM",
+        "depthMm": "100 MM",
+        "dimensionsMm": "650 × 530 × 100",
+        "dimensionsIn": "25.60 × 20.80 × 4.00",
+        "capacity": "29 L",
+        "netPrice": 1927
+      },
+      {
+        "label": "2/1 × 150 MM",
+        "depthMm": "150 MM",
+        "dimensionsMm": "650 × 530 × 150",
+        "dimensionsIn": "25.60 × 20.80 × 6.00",
+        "capacity": "43 L",
+        "netPrice": 2497
+      },
+      {
+        "label": "2/1 × 200 MM",
+        "depthMm": "200 MM",
+        "dimensionsMm": "650 × 530 × 200",
+        "dimensionsIn": "25.60 × 20.80 × 8.00",
+        "capacity": "62 L",
+        "netPrice": 2998
+      }
+    ],
+    "specifications": [
+      {
+        "label": "GN Size",
+        "value": "2/1"
+      },
+      {
+        "label": "Overall Size",
+        "value": "650 × 530 mm"
+      },
+      {
+        "label": "Available Depths",
+        "value": "65 MM, 100 MM, 150 MM, 200 MM"
+      },
+      {
+        "label": "Capacity Range",
+        "value": "19 L – 62 L"
+      },
+      {
+        "label": "Matching Cover",
+        "value": "2/1 Lid (650 × 530 mm)"
+      }
+    ],
+    "relatedProductIds": [
+      "gn-lid-2-1",
+      "gn-pan-1-1",
+      "gn-pan-1-2"
+    ],
+    "featured": false,
+    "sortOrder": 11,
+    "mainImage": "media://img-1794852677266-th4adn",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1794814452,
+      "nanoseconds": 493000000
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "gn-pan-1-1": {
+    "id": "gn-pan-1-1",
+    "name": "GN Pan 1/1",
+    "category": "gn-pans",
+    "subCategory": "GN Pan 1/1",
+    "productType": "gn-pan",
+    "gnSize": "1/1",
+    "matchingLidId": "gn-lid-1-1",
+    "modelNumber": "GN-1/1",
+    "description": "Standard gastronorm stainless steel GN Pan 1/1 with overall footprint 530 × 325 mm, available in 65 mm, 100 mm, 150 mm, and 200 mm depths.",
+    "availableSizes": [
+      "65 MM",
+      "100 MM",
+      "150 MM",
+      "200 MM"
+    ],
+    "dimensions": "530 × 325 mm",
+    "materialDetails": "Stainless Steel",
+    "variants": [
+      {
+        "label": "1/1 × 65 MM",
+        "depthMm": "65 MM",
+        "dimensionsMm": "530 × 325 × 65",
+        "dimensionsIn": "20.80 × 12.80 × 2.50",
+        "capacity": "9.5 L",
+        "netPrice": 539
+      },
+      {
+        "label": "1/1 × 100 MM",
+        "depthMm": "100 MM",
+        "dimensionsMm": "530 × 325 × 100",
+        "dimensionsIn": "20.80 × 12.80 × 4.00",
+        "capacity": "12.5 L",
+        "netPrice": 648
+      },
+      {
+        "label": "1/1 × 150 MM",
+        "depthMm": "150 MM",
+        "dimensionsMm": "530 × 325 × 150",
+        "dimensionsIn": "20.80 × 12.80 × 6.00",
+        "capacity": "20 L",
+        "netPrice": 773
+      },
+      {
+        "label": "1/1 × 200 MM",
+        "depthMm": "200 MM",
+        "dimensionsMm": "530 × 325 × 200",
+        "dimensionsIn": "20.80 × 12.80 × 8.00",
+        "capacity": "28 L",
+        "netPrice": 973
+      }
+    ],
+    "specifications": [
+      {
+        "label": "GN Size",
+        "value": "1/1"
+      },
+      {
+        "label": "Overall Size",
+        "value": "530 × 325 mm"
+      },
+      {
+        "label": "Available Depths",
+        "value": "65 MM, 100 MM, 150 MM, 200 MM"
+      },
+      {
+        "label": "Capacity Range",
+        "value": "9.5 L – 28 L"
+      },
+      {
+        "label": "Matching Cover",
+        "value": "1/1 Lid (530 × 325 mm)"
+      }
+    ],
+    "relatedProductIds": [
+      "gn-lid-1-1",
+      "gn-pan-1-2",
+      "gn-pan-2-1"
+    ],
+    "featured": true,
+    "sortOrder": 12,
+    "mainImage": "media://img-1794852687198-76dmxv",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "gn-pan-1-2": {
+    "id": "gn-pan-1-2",
+    "name": "GN Pan 1/2",
+    "category": "gn-pans",
+    "subCategory": "GN Pan 1/2",
+    "productType": "gn-pan",
+    "gnSize": "1/2",
+    "matchingLidId": "gn-lid-1-2",
+    "modelNumber": "GN-1/2",
+    "description": "Half-size gastronorm stainless steel GN Pan 1/2 with overall footprint 325 × 265 mm, available in 65 mm, 100 mm, 150 mm, and 200 mm depths.",
+    "availableSizes": [
+      "65 MM",
+      "100 MM",
+      "150 MM",
+      "200 MM"
+    ],
+    "dimensions": "325 × 265 mm",
+    "materialDetails": "Stainless Steel",
+    "variants": [
+      {
+        "label": "1/2 × 65 MM",
+        "depthMm": "65 MM",
+        "dimensionsMm": "325 × 265 × 65",
+        "dimensionsIn": "12.80 × 10.40 × 2.50",
+        "capacity": "4 L",
+        "netPrice": 349
+      },
+      {
+        "label": "1/2 × 100 MM",
+        "depthMm": "100 MM",
+        "dimensionsMm": "325 × 265 × 100",
+        "dimensionsIn": "12.80 × 10.40 × 4.00",
+        "capacity": "6 L",
+        "netPrice": 419
+      },
+      {
+        "label": "1/2 × 150 MM",
+        "depthMm": "150 MM",
+        "dimensionsMm": "325 × 265 × 150",
+        "dimensionsIn": "12.80 × 10.40 × 6.00",
+        "capacity": "9.2 L",
+        "netPrice": 514
+      },
+      {
+        "label": "1/2 × 200 MM",
+        "depthMm": "200 MM",
+        "dimensionsMm": "325 × 265 × 200",
+        "dimensionsIn": "12.80 × 10.40 × 8.00",
+        "capacity": "12 L",
+        "netPrice": 673
+      }
+    ],
+    "specifications": [
+      {
+        "label": "GN Size",
+        "value": "1/2"
+      },
+      {
+        "label": "Overall Size",
+        "value": "325 × 265 mm"
+      },
+      {
+        "label": "Available Depths",
+        "value": "65 MM, 100 MM, 150 MM, 200 MM"
+      },
+      {
+        "label": "Capacity Range",
+        "value": "4 L – 12 L"
+      },
+      {
+        "label": "Matching Cover",
+        "value": "1/2 Lid (325 × 265 mm)"
+      }
+    ],
+    "relatedProductIds": [
+      "gn-lid-1-2",
+      "gn-pan-1-1",
+      "gn-pan-1-3"
+    ],
+    "featured": true,
+    "sortOrder": 13,
+    "mainImage": "media://img-1794852705797-zqyj8g",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1794852706,
+      "nanoseconds": 502000000
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "gn-pan-1-3": {
+    "id": "gn-pan-1-3",
+    "name": "GN Pan 1/3",
+    "category": "gn-pans",
+    "subCategory": "GN Pan 1/3",
+    "productType": "gn-pan",
+    "gnSize": "1/3",
+    "matchingLidId": "gn-lid-1-3",
+    "modelNumber": "GN-1/3",
+    "description": "One-third gastronorm stainless steel GN Pan 1/3 with overall footprint 325 × 176 mm, available in 65 mm, 100 mm, 150 mm, and 200 mm depths.",
+    "availableSizes": [
+      "65 MM",
+      "100 MM",
+      "150 MM",
+      "200 MM"
+    ],
+    "dimensions": "325 × 176 mm",
+    "materialDetails": "Stainless Steel",
+    "variants": [
+      {
+        "label": "1/3 × 65 MM",
+        "depthMm": "65 MM",
+        "dimensionsMm": "325 × 176 × 65",
+        "dimensionsIn": "12.80 × 7.00 × 2.50",
+        "capacity": "2.4 L",
+        "netPrice": 269
+      },
+      {
+        "label": "1/3 × 100 MM",
+        "depthMm": "100 MM",
+        "dimensionsMm": "325 × 176 × 100",
+        "dimensionsIn": "12.80 × 7.00 × 4.00",
+        "capacity": "3.5 L",
+        "netPrice": 334
+      },
+      {
+        "label": "1/3 × 150 MM",
+        "depthMm": "150 MM",
+        "dimensionsMm": "325 × 176 × 150",
+        "dimensionsIn": "12.80 × 7.00 × 6.00",
+        "capacity": "5.5 L",
+        "netPrice": 419
+      },
+      {
+        "label": "1/3 × 200 MM",
+        "depthMm": "200 MM",
+        "dimensionsMm": "325 × 176 × 200",
+        "dimensionsIn": "12.80 × 7.00 × 8.00",
+        "capacity": "7.5 L",
+        "netPrice": 566
+      }
+    ],
+    "specifications": [
+      {
+        "label": "GN Size",
+        "value": "1/3"
+      },
+      {
+        "label": "Overall Size",
+        "value": "325 × 176 mm"
+      },
+      {
+        "label": "Available Depths",
+        "value": "65 MM, 100 MM, 150 MM, 200 MM"
+      },
+      {
+        "label": "Capacity Range",
+        "value": "2.4 L – 7.5 L"
+      },
+      {
+        "label": "Matching Cover",
+        "value": "1/3 Lid (325 × 176 mm)"
+      }
+    ],
+    "relatedProductIds": [
+      "gn-lid-1-3",
+      "gn-pan-1-2",
+      "gn-pan-1-4"
+    ],
+    "featured": false,
+    "sortOrder": 14,
+    "mainImage": "media://img-1794852886407-7hhdmj",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "gn-pan-1-4": {
+    "id": "gn-pan-1-4",
+    "name": "GN Pan 1/4",
+    "category": "gn-pans",
+    "subCategory": "GN Pan 1/4",
+    "productType": "gn-pan",
+    "gnSize": "1/4",
+    "matchingLidId": "gn-lid-1-4",
+    "modelNumber": "GN-1/4",
+    "description": "Quarter-size gastronorm stainless steel GN Pan 1/4 with overall footprint 265 × 162 mm, available in 65 mm, 100 mm, 150 mm, and 200 mm depths.",
+    "availableSizes": [
+      "65 MM",
+      "100 MM",
+      "150 MM",
+      "200 MM"
+    ],
+    "dimensions": "265 × 162 mm",
+    "materialDetails": "Stainless Steel",
+    "variants": [
+      {
+        "label": "1/4 × 65 MM",
+        "depthMm": "65 MM",
+        "dimensionsMm": "265 × 162 × 65",
+        "dimensionsIn": "10.40 × 6.40 × 2.50",
+        "capacity": "1.7 L",
+        "netPrice": 244
+      },
+      {
+        "label": "1/4 × 100 MM",
+        "depthMm": "100 MM",
+        "dimensionsMm": "265 × 162 × 100",
+        "dimensionsIn": "10.40 × 6.40 × 4.00",
+        "capacity": "2.5 L",
+        "netPrice": 299
+      },
+      {
+        "label": "1/4 × 150 MM",
+        "depthMm": "150 MM",
+        "dimensionsMm": "265 × 162 × 150",
+        "dimensionsIn": "10.40 × 6.40 × 6.00",
+        "capacity": "4 L",
+        "netPrice": 349
+      },
+      {
+        "label": "1/4 × 200 MM",
+        "depthMm": "200 MM",
+        "dimensionsMm": "265 × 162 × 200",
+        "dimensionsIn": "10.40 × 6.40 × 8.00",
+        "capacity": "5.2 L",
+        "netPrice": 474
+      }
+    ],
+    "specifications": [
+      {
+        "label": "GN Size",
+        "value": "1/4"
+      },
+      {
+        "label": "Overall Size",
+        "value": "265 × 162 mm"
+      },
+      {
+        "label": "Available Depths",
+        "value": "65 MM, 100 MM, 150 MM, 200 MM"
+      },
+      {
+        "label": "Capacity Range",
+        "value": "1.7 L – 5.2 L"
+      },
+      {
+        "label": "Matching Cover",
+        "value": "1/4 Lid (265 × 162 mm)"
+      }
+    ],
+    "relatedProductIds": [
+      "gn-lid-1-4",
+      "gn-pan-1-3",
+      "gn-pan-1-6"
+    ],
+    "featured": false,
+    "sortOrder": 15,
+    "mainImage": "media://img-1794852914859-iwn6kn",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "gn-pan-1-6": {
+    "id": "gn-pan-1-6",
+    "name": "GN Pan 1/6",
+    "category": "gn-pans",
+    "subCategory": "GN Pan 1/6",
+    "productType": "gn-pan",
+    "gnSize": "1/6",
+    "matchingLidId": "gn-lid-1-6",
+    "modelNumber": "GN-1/6",
+    "description": "One-sixth gastronorm stainless steel GN Pan 1/6 with overall footprint 176 × 162 mm, available in 65 mm, 100 mm, 150 mm, and 200 mm depths.",
+    "availableSizes": [
+      "65 MM",
+      "100 MM",
+      "150 MM",
+      "200 MM"
+    ],
+    "dimensions": "176 × 162 mm",
+    "materialDetails": "Stainless Steel",
+    "variants": [
+      {
+        "label": "1/6 × 65 MM",
+        "depthMm": "65 MM",
+        "dimensionsMm": "176 × 162 × 65",
+        "dimensionsIn": "7.00 × 6.40 × 2.50",
+        "capacity": "1 L",
+        "netPrice": 190
+      },
+      {
+        "label": "1/6 × 100 MM",
+        "depthMm": "100 MM",
+        "dimensionsMm": "176 × 162 × 100",
+        "dimensionsIn": "7.00 × 6.40 × 4.00",
+        "capacity": "1.5 L",
+        "netPrice": 244
+      },
+      {
+        "label": "1/6 × 150 MM",
+        "depthMm": "150 MM",
+        "dimensionsMm": "176 × 162 × 150",
+        "dimensionsIn": "7.00 × 6.40 × 6.00",
+        "capacity": "2.2 L",
+        "netPrice": 314
+      },
+      {
+        "label": "1/6 × 200 MM",
+        "depthMm": "200 MM",
+        "dimensionsMm": "176 × 162 × 200",
+        "dimensionsIn": "7.00 × 6.40 × 8.00",
+        "capacity": "3.2 L",
+        "netPrice": 527
+      }
+    ],
+    "specifications": [
+      {
+        "label": "GN Size",
+        "value": "1/6"
+      },
+      {
+        "label": "Overall Size",
+        "value": "176 × 162 mm"
+      },
+      {
+        "label": "Available Depths",
+        "value": "65 MM, 100 MM, 150 MM, 200 MM"
+      },
+      {
+        "label": "Capacity Range",
+        "value": "1 L – 3.2 L"
+      },
+      {
+        "label": "Matching Cover",
+        "value": "1/6 Lid (176 × 162 mm)"
+      }
+    ],
+    "relatedProductIds": [
+      "gn-lid-1-6",
+      "gn-pan-1-4",
+      "gn-pan-1-9"
+    ],
+    "featured": false,
+    "sortOrder": 16,
+    "mainImage": "media://img-1794852929099-j7ourh",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "gn-pan-1-9": {
+    "id": "gn-pan-1-9",
+    "name": "GN Pan 1/9",
+    "category": "gn-pans",
+    "subCategory": "GN Pan 1/9",
+    "productType": "gn-pan",
+    "gnSize": "1/9",
+    "matchingLidId": "gn-lid-1-9",
+    "modelNumber": "GN-1/9",
+    "description": "One-ninth gastronorm stainless steel GN Pan 1/9 with overall footprint 176 × 108 mm, available in 65 mm, 100 mm, and 150 mm depths.",
+    "availableSizes": [
+      "65 MM",
+      "100 MM",
+      "150 MM"
+    ],
+    "dimensions": "176 × 108 mm",
+    "materialDetails": "Stainless Steel",
+    "variants": [
+      {
+        "label": "1/9 × 65 MM",
+        "depthMm": "65 MM",
+        "dimensionsMm": "176 × 108 × 65",
+        "dimensionsIn": "7.00 × 4.25 × 2.50",
+        "capacity": "0.5 L",
+        "netPrice": 185
+      },
+      {
+        "label": "1/9 × 100 MM",
+        "depthMm": "100 MM",
+        "dimensionsMm": "176 × 108 × 100",
+        "dimensionsIn": "7.00 × 4.25 × 4.00",
+        "capacity": "0.7 L",
+        "netPrice": 219
+      },
+      {
+        "label": "1/9 × 150 MM",
+        "depthMm": "150 MM",
+        "dimensionsMm": "176 × 108 × 150",
+        "dimensionsIn": "7.00 × 4.25 × 6.00",
+        "capacity": "1 L",
+        "netPrice": 299
+      }
+    ],
+    "specifications": [
+      {
+        "label": "GN Size",
+        "value": "1/9"
+      },
+      {
+        "label": "Overall Size",
+        "value": "176 × 108 mm"
+      },
+      {
+        "label": "Available Depths",
+        "value": "65 MM, 100 MM, 150 MM"
+      },
+      {
+        "label": "Capacity Range",
+        "value": "0.5 L – 1 L"
+      },
+      {
+        "label": "Matching Cover",
+        "value": "1/9 Lid (176 × 108 mm)"
+      }
+    ],
+    "relatedProductIds": [
+      "gn-lid-1-9",
+      "gn-pan-1-6",
+      "gn-pan-1-4"
+    ],
+    "featured": false,
+    "sortOrder": 17,
+    "mainImage": "media://img-1794852937397-yvej4k",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "ice-cream-pan-150": {
+    "id": "ice-cream-pan-150",
+    "name": "Ice Cream Pan With Lid (210 × 200 × 150)",
+    "category": "gn-pans",
+    "subCategory": "Ice Cream Pans With Lids",
+    "productType": "ice-cream-pan",
+    "modelNumber": "ICP-210-150",
+    "description": "Stainless steel commercial ice cream pan (210 × 200 × 150 mm, 2.4 L capacity), supplied complete with fitted lid.",
+    "availableSizes": [
+      "210 × 200 × 150 mm (2.4 L)"
+    ],
+    "dimensions": "210 × 200 × 150 mm",
+    "materialDetails": "Stainless Steel (Supplied with Lid)",
+    "variants": [
+      {
+        "label": "210 × 200 × 150",
+        "depthMm": "150 MM",
+        "dimensionsMm": "210 × 200 × 150",
+        "dimensionsIn": "8.00 × 8.00 × 6.00",
+        "capacity": "2.4 L",
+        "netPrice": 948
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Supply Format",
+        "value": "Pan Supplied With Lid"
+      },
+      {
+        "label": "Dimensions (mm)",
+        "value": "210 × 200 × 150"
+      },
+      {
+        "label": "Dimensions (Inches)",
+        "value": "8.00 × 8.00 × 6.00"
+      },
+      {
+        "label": "Capacity",
+        "value": "2.4 L"
+      }
+    ],
+    "relatedProductIds": [
+      "ice-cream-pan-200",
+      "gn-pan-1-4"
+    ],
+    "featured": false,
+    "sortOrder": 31,
+    "mainImage": "media://img-1794852958152-7qal6s",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "ice-cream-pan-200": {
+    "id": "ice-cream-pan-200",
+    "name": "Ice Cream Pan With Lid (210 × 200 × 200)",
+    "category": "gn-pans",
+    "subCategory": "Ice Cream Pans With Lids",
+    "productType": "ice-cream-pan",
+    "modelNumber": "ICP-210-200",
+    "description": "Deep-profile stainless steel commercial ice cream pan (210 × 200 × 200 mm, 3.2 L capacity), supplied complete with fitted lid.",
+    "availableSizes": [
+      "210 × 200 × 200 mm (3.2 L)"
+    ],
+    "dimensions": "210 × 200 × 200 mm",
+    "materialDetails": "Stainless Steel (Supplied with Lid)",
+    "variants": [
+      {
+        "label": "210 × 200 × 200",
+        "depthMm": "200 MM",
+        "dimensionsMm": "210 × 200 × 200",
+        "dimensionsIn": "8.00 × 8.00 × 8.00",
+        "capacity": "3.2 L",
+        "netPrice": 1235
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Supply Format",
+        "value": "Pan Supplied With Lid"
+      },
+      {
+        "label": "Dimensions (mm)",
+        "value": "210 × 200 × 200"
+      },
+      {
+        "label": "Dimensions (Inches)",
+        "value": "8.00 × 8.00 × 8.00"
+      },
+      {
+        "label": "Capacity",
+        "value": "3.2 L"
+      }
+    ],
+    "relatedProductIds": [
+      "ice-cream-pan-150",
+      "gn-pan-1-4"
+    ],
+    "featured": false,
+    "sortOrder": 32,
+    "mainImage": "media://img-1794852964105-yul7zf",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "gn-lid-1-1": {
+    "id": "gn-lid-1-1",
+    "name": "1/1 Lid",
+    "category": "gn-pans",
+    "subCategory": "GN Pan Covers",
+    "productType": "gn-lid",
+    "gnSize": "1/1",
+    "modelNumber": "GN-LID-1/1",
+    "description": "Fitted stainless steel gastronorm cover designed to match GN Pan 1/1 (530 × 325 mm).",
+    "availableSizes": [
+      "530 × 325 mm"
+    ],
+    "dimensions": "530 × 325 mm",
+    "materialDetails": "Stainless Steel",
+    "variants": [
+      {
+        "label": "1/1 Lid",
+        "dimensionsMm": "530 × 325",
+        "dimensionsIn": "20.80 × 12.80",
+        "netPrice": 424
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Compatible GN Size",
+        "value": "1/1"
+      },
+      {
+        "label": "Dimensions (mm)",
+        "value": "530 × 325"
+      },
+      {
+        "label": "Dimensions (Inches)",
+        "value": "20.80 × 12.80"
+      }
+    ],
+    "relatedProductIds": [
+      "gn-pan-1-1",
+      "gn-lid-1-2",
+      "gn-lid-2-1"
+    ],
+    "featured": false,
+    "sortOrder": 21,
+    "mainImage": "media://img-1794890741944-l925nk",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "gn-lid-1-2": {
+    "id": "gn-lid-1-2",
+    "name": "1/2 Lid",
+    "category": "gn-pans",
+    "subCategory": "GN Pan Covers",
+    "productType": "gn-lid",
+    "gnSize": "1/2",
+    "modelNumber": "GN-LID-1/2",
+    "description": "Fitted stainless steel gastronorm cover designed to match GN Pan 1/2 (325 × 265 mm).",
+    "availableSizes": [
+      "325 × 265 mm"
+    ],
+    "dimensions": "325 × 265 mm",
+    "materialDetails": "Stainless Steel",
+    "variants": [
+      {
+        "label": "1/2 Lid",
+        "dimensionsMm": "325 × 265",
+        "dimensionsIn": "12.80 × 10.40",
+        "netPrice": 264
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Compatible GN Size",
+        "value": "1/2"
+      },
+      {
+        "label": "Dimensions (mm)",
+        "value": "325 × 265"
+      },
+      {
+        "label": "Dimensions (Inches)",
+        "value": "12.80 × 10.40"
+      }
+    ],
+    "relatedProductIds": [
+      "gn-pan-1-2",
+      "gn-lid-1-1",
+      "gn-lid-1-3"
+    ],
+    "featured": false,
+    "sortOrder": 22,
+    "mainImage": "media://img-1794890754002-mesfix",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "gn-lid-1-3": {
+    "id": "gn-lid-1-3",
+    "name": "1/3 Lid",
+    "category": "gn-pans",
+    "subCategory": "GN Pan Covers",
+    "productType": "gn-lid",
+    "gnSize": "1/3",
+    "modelNumber": "GN-LID-1/3",
+    "description": "Fitted stainless steel gastronorm cover designed to match GN Pan 1/3 (325 × 176 mm).",
+    "availableSizes": [
+      "325 × 176 mm"
+    ],
+    "dimensions": "325 × 176 mm",
+    "materialDetails": "Stainless Steel",
+    "variants": [
+      {
+        "label": "1/3 Lid",
+        "dimensionsMm": "325 × 176",
+        "dimensionsIn": "12.80 × 7.00",
+        "netPrice": 139
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Compatible GN Size",
+        "value": "1/3"
+      },
+      {
+        "label": "Dimensions (mm)",
+        "value": "325 × 176"
+      },
+      {
+        "label": "Dimensions (Inches)",
+        "value": "12.80 × 7.00"
+      }
+    ],
+    "relatedProductIds": [
+      "gn-pan-1-3",
+      "gn-lid-1-2",
+      "gn-lid-1-4"
+    ],
+    "featured": false,
+    "sortOrder": 23,
+    "mainImage": "media://img-1794890773976-sp50pk",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "gn-lid-1-4": {
+    "id": "gn-lid-1-4",
+    "name": "1/4 Lid",
+    "category": "gn-pans",
+    "subCategory": "GN Pan Covers",
+    "productType": "gn-lid",
+    "gnSize": "1/4",
+    "modelNumber": "GN-LID-1/4",
+    "description": "Fitted stainless steel gastronorm cover designed to match GN Pan 1/4 (265 × 162 mm).",
+    "availableSizes": [
+      "265 × 162 mm"
+    ],
+    "dimensions": "265 × 162 mm",
+    "materialDetails": "Stainless Steel",
+    "variants": [
+      {
+        "label": "1/4 Lid",
+        "dimensionsMm": "265 × 162",
+        "dimensionsIn": "10.40 × 6.40",
+        "netPrice": 118
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Compatible GN Size",
+        "value": "1/4"
+      },
+      {
+        "label": "Dimensions (mm)",
+        "value": "265 × 162"
+      },
+      {
+        "label": "Dimensions (Inches)",
+        "value": "10.40 × 6.40"
+      }
+    ],
+    "relatedProductIds": [
+      "gn-pan-1-4",
+      "gn-lid-1-3",
+      "gn-lid-1-6"
+    ],
+    "featured": false,
+    "sortOrder": 24,
+    "mainImage": "media://img-1794890793987-dzfl6h",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "gn-lid-1-6": {
+    "id": "gn-lid-1-6",
+    "name": "1/6 Lid",
+    "category": "gn-pans",
+    "subCategory": "GN Pan Covers",
+    "productType": "gn-lid",
+    "gnSize": "1/6",
+    "modelNumber": "GN-LID-1/6",
+    "description": "Fitted stainless steel gastronorm cover designed to match GN Pan 1/6 (176 × 162 mm).",
+    "availableSizes": [
+      "176 × 162 mm"
+    ],
+    "dimensions": "176 × 162 mm",
+    "materialDetails": "Stainless Steel",
+    "variants": [
+      {
+        "label": "1/6 Lid",
+        "dimensionsMm": "176 × 162",
+        "dimensionsIn": "7.00 × 6.40",
+        "netPrice": 95
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Compatible GN Size",
+        "value": "1/6"
+      },
+      {
+        "label": "Dimensions (mm)",
+        "value": "176 × 162"
+      },
+      {
+        "label": "Dimensions (Inches)",
+        "value": "7.00 × 6.40"
+      }
+    ],
+    "relatedProductIds": [
+      "gn-pan-1-6",
+      "gn-lid-1-4",
+      "gn-lid-1-9"
+    ],
+    "featured": false,
+    "sortOrder": 25,
+    "mainImage": "media://img-1794890802528-rivloc",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "gn-lid-1-9": {
+    "id": "gn-lid-1-9",
+    "name": "1/9 Lid",
+    "category": "gn-pans",
+    "subCategory": "GN Pan Covers",
+    "productType": "gn-lid",
+    "gnSize": "1/9",
+    "modelNumber": "GN-LID-1/9",
+    "description": "Fitted stainless steel gastronorm cover designed to match GN Pan 1/9 (176 × 108 mm).",
+    "availableSizes": [
+      "176 × 108 mm"
+    ],
+    "dimensions": "176 × 108 mm",
+    "materialDetails": "Stainless Steel",
+    "variants": [
+      {
+        "label": "1/9 Lid",
+        "dimensionsMm": "176 × 108",
+        "dimensionsIn": "7.00 × 4.25",
+        "netPrice": 82
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Compatible GN Size",
+        "value": "1/9"
+      },
+      {
+        "label": "Dimensions (mm)",
+        "value": "176 × 108"
+      },
+      {
+        "label": "Dimensions (Inches)",
+        "value": "7.00 × 4.25"
+      }
+    ],
+    "relatedProductIds": [
+      "gn-pan-1-9",
+      "gn-lid-1-6",
+      "gn-lid-1-4"
+    ],
+    "featured": false,
+    "sortOrder": 26,
+    "mainImage": "media://img-1794890809063-nvj8uj",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "gn-lid-2-1": {
+    "id": "gn-lid-2-1",
+    "name": "2/1 Lid",
+    "category": "gn-pans",
+    "subCategory": "GN Pan Covers",
+    "productType": "gn-lid",
+    "gnSize": "2/1",
+    "modelNumber": "GN-LID-2/1",
+    "description": "Fitted stainless steel gastronorm cover designed to match GN Pan 2/1 (650 × 530 mm).",
+    "availableSizes": [
+      "650 × 530 mm"
+    ],
+    "dimensions": "650 × 530 mm",
+    "materialDetails": "Stainless Steel",
+    "variants": [
+      {
+        "label": "2/1 Lid",
+        "dimensionsMm": "650 × 530",
+        "dimensionsIn": "25.60 × 20.80",
+        "netPrice": 1427
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Compatible GN Size",
+        "value": "2/1"
+      },
+      {
+        "label": "Dimensions (mm)",
+        "value": "650 × 530"
+      },
+      {
+        "label": "Dimensions (Inches)",
+        "value": "25.60 × 20.80"
+      }
+    ],
+    "relatedProductIds": [
+      "gn-pan-2-1",
+      "gn-lid-1-1"
+    ],
+    "featured": false,
+    "sortOrder": 27,
+    "mainImage": "media://img-1794890816659-a9kzfj",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "tsl-81": {
+    "id": "tsl-81",
+    "name": "Single Tank 6L Fryer",
+    "category": "commercial-kitchen-equipment",
+    "subCategory": "Electric Fryer Range",
+    "brandLine": "THE SILVER LINING",
+    "modelNumber": "TSL-81",
+    "description": "Commercial single-tank 6-litre electric fryer with stainless steel body, 1 frying basket, and 60–200°C temperature control.",
+    "availableSizes": [
+      "6 Litres (Single Tank)"
+    ],
+    "dimensions": "285 × 450 × 310 mm",
+    "materialDetails": "Stainless Steel",
+    "specifications": [
+      {
+        "label": "Capacity",
+        "value": "6 Litres"
+      },
+      {
+        "label": "Basket",
+        "value": "1 Frying Basket"
+      },
+      {
+        "label": "Body",
+        "value": "Stainless Steel"
+      },
+      {
+        "label": "Power",
+        "value": "2.5 kW"
+      },
+      {
+        "label": "Temperature Range",
+        "value": "60–200°C"
+      },
+      {
+        "label": "Dimensions",
+        "value": "285 × 450 × 310 mm"
+      },
+      {
+        "label": "Weight",
+        "value": "4.5 kg"
+      }
+    ],
+    "featured": true,
+    "sortOrder": 101,
+    "mainImage": "media://img-1794891020950-fl3z8h",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1794836450,
+      "nanoseconds": 906000000
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "tsl-82": {
+    "id": "tsl-82",
+    "name": "Double Tank 6L + 6L Fryer",
+    "category": "commercial-kitchen-equipment",
+    "subCategory": "Electric Fryer Range",
+    "brandLine": "THE SILVER LINING",
+    "modelNumber": "TSL-82",
+    "description": "Double-tank 6 + 6 litre commercial electric fryer with stainless steel body, 2 frying baskets, and 60–200°C operating range.",
+    "availableSizes": [
+      "6 + 6 Litres (Double Tank)"
+    ],
+    "dimensions": "310 × 410 × 290 mm",
+    "materialDetails": "Stainless Steel",
+    "specifications": [
+      {
+        "label": "Capacity",
+        "value": "6 + 6 Litres"
+      },
+      {
+        "label": "Basket",
+        "value": "2 Frying Basket"
+      },
+      {
+        "label": "Body",
+        "value": "Stainless Steel"
+      },
+      {
+        "label": "Power",
+        "value": "2.5 kW"
+      },
+      {
+        "label": "Temperature Range",
+        "value": "60–200°C"
+      },
+      {
+        "label": "Dimensions",
+        "value": "310 × 410 × 290 mm"
+      },
+      {
+        "label": "Weight",
+        "value": "8.26 kg"
+      }
+    ],
+    "featured": false,
+    "sortOrder": 102,
+    "mainImage": "media://img-1794891053514-5oqlsm",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "tsl-88": {
+    "id": "tsl-88",
+    "name": "Single Tank 8L Fryer",
+    "category": "commercial-kitchen-equipment",
+    "subCategory": "Electric Fryer Range",
+    "brandLine": "THE SILVER LINING",
+    "modelNumber": "TSL-88",
+    "description": "Single-tank 8-litre electric commercial fryer featuring overheat protection / auto cut-off and stainless steel body construction.",
+    "availableSizes": [
+      "8 Litres (Single Tank)"
+    ],
+    "dimensions": "285 × 450 × 360 mm",
+    "materialDetails": "Stainless Steel",
+    "specifications": [
+      {
+        "label": "Capacity",
+        "value": "8 Litres"
+      },
+      {
+        "label": "Basket",
+        "value": "1 Frying Basket"
+      },
+      {
+        "label": "Body",
+        "value": "Stainless Steel"
+      },
+      {
+        "label": "Power",
+        "value": "2.8 kW"
+      },
+      {
+        "label": "Temperature Range",
+        "value": "60–240°C"
+      },
+      {
+        "label": "Safety",
+        "value": "Overheat Protection / Auto Cut-Off"
+      },
+      {
+        "label": "Dimensions",
+        "value": "285 × 450 × 360 mm"
+      },
+      {
+        "label": "Weight",
+        "value": "5.3 kg"
+      },
+      {
+        "label": "Body Material",
+        "value": "Stainless Steel"
+      }
+    ],
+    "featured": false,
+    "sortOrder": 103,
+    "mainImage": "media://img-1794891061259-de46jq",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "tsl-82a": {
+    "id": "tsl-82a",
+    "name": "Heavy Duty Double Tank 6L + 6L Fryer",
+    "category": "commercial-kitchen-equipment",
+    "subCategory": "Electric Fryer Range",
+    "brandLine": "THE SILVER LINING",
+    "modelNumber": "TSL-82A",
+    "description": "Heavy-duty dual independent 6L + 6L tank electric fryer equipped with dual independent thermostats (50–190°C) and overheat protection.",
+    "availableSizes": [
+      "6L + 6L (Independent Dual Tanks)"
+    ],
+    "dimensions": "570 × 450 × 310 mm",
+    "specifications": [
+      {
+        "label": "Tank Capacity",
+        "value": "6L + 6L (Independent Dual Tanks)"
+      },
+      {
+        "label": "Power Supply",
+        "value": "2.5 kW + 2.5 kW"
+      },
+      {
+        "label": "Voltage",
+        "value": "220–240V"
+      },
+      {
+        "label": "Temperature Control",
+        "value": "50–190°C (Dual Independent Thermostats)"
+      },
+      {
+        "label": "Machine Dimensions",
+        "value": "570 × 450 × 310 mm"
+      },
+      {
+        "label": "Gross Weight",
+        "value": "8.26 kg"
+      },
+      {
+        "label": "Safety",
+        "value": "Overheat Protection / Auto Cut-Off"
+      }
+    ],
+    "featured": false,
+    "sortOrder": 104,
+    "mainImage": "media://img-1794891074492-4l49dd",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "tsl-89": {
+    "id": "tsl-89",
+    "name": "Double Tank 8L + 8L Fryer",
+    "category": "commercial-kitchen-equipment",
+    "subCategory": "Electric Fryer Range",
+    "brandLine": "THE SILVER LINING",
+    "modelNumber": "TSL-89",
+    "description": "High-capacity 8 + 8 litre double-tank commercial fryer with 2.8 + 2.8 kW power, 60–240°C temperature range, and auto cut-off safety.",
+    "availableSizes": [
+      "8 + 8 Litres (Double Tank)"
+    ],
+    "dimensions": "570 × 450 × 360 mm",
+    "materialDetails": "Stainless Steel",
+    "specifications": [
+      {
+        "label": "Capacity",
+        "value": "8 + 8 Litres"
+      },
+      {
+        "label": "Basket",
+        "value": "2 Frying Basket"
+      },
+      {
+        "label": "Body",
+        "value": "Stainless Steel"
+      },
+      {
+        "label": "Power",
+        "value": "2.8 + 2.8 kW"
+      },
+      {
+        "label": "Temperature Range",
+        "value": "60–240°C"
+      },
+      {
+        "label": "Safety",
+        "value": "Overheat Protection / Auto Cut-Off"
+      },
+      {
+        "label": "Dimensions",
+        "value": "570 × 450 × 360 mm"
+      },
+      {
+        "label": "Weight",
+        "value": "7.9 kg"
+      }
+    ],
+    "featured": false,
+    "sortOrder": 105,
+    "mainImage": "media://img-1794891082475-pkc2y1",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "tsl-81a": {
+    "id": "tsl-81a",
+    "name": "Heavy Duty Single Tank 6L Fryer",
+    "category": "commercial-kitchen-equipment",
+    "subCategory": "Electric Fryer Range",
+    "brandLine": "THE SILVER LINING",
+    "modelNumber": "TSL-81A",
+    "description": "Heavy-duty single-tank 6-litre fryer built with a stainless steel body, removable oil tank for easy cleaning, and overheat protection.",
+    "availableSizes": [
+      "6 Litres (Single Tank)"
+    ],
+    "dimensions": "285 × 450 × 310 mm",
+    "materialDetails": "Stainless Steel",
+    "specifications": [
+      {
+        "label": "Body Material",
+        "value": "Stainless Steel"
+      },
+      {
+        "label": "Tank Capacity",
+        "value": "6 Litres"
+      },
+      {
+        "label": "Power Supply",
+        "value": "2.5 kW"
+      },
+      {
+        "label": "Voltage",
+        "value": "220–240V"
+      },
+      {
+        "label": "Frequency",
+        "value": "50–60 Hz"
+      },
+      {
+        "label": "Machine Dimensions",
+        "value": "285 × 450 × 310 mm"
+      },
+      {
+        "label": "Gross Weight",
+        "value": "4.71 kg"
+      },
+      {
+        "label": "Oil Tank",
+        "value": "Removable for easy cleaning"
+      },
+      {
+        "label": "Safety",
+        "value": "Overheat Protection / Auto Cut-Off"
+      },
+      {
+        "label": "Maintenance",
+        "value": "Easy to clean and maintain"
+      }
+    ],
+    "featured": false,
+    "sortOrder": 106,
+    "mainImage": "media://img-1794891094112-dwo7oy",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "tsl-811": {
+    "id": "tsl-811",
+    "name": "Electric Contact Grill (Single)",
+    "category": "commercial-kitchen-equipment",
+    "subCategory": "Sandwich Griller",
+    "brandLine": "THE SILVER LINING",
+    "modelNumber": "TSL-811",
+    "description": "Single electric contact grill with stainless steel body and cast iron combination cooking plates.",
+    "availableSizes": [
+      "Single (310 × 362 × 220 mm)"
+    ],
+    "dimensions": "310 × 362 × 220 mm",
+    "materialDetails": "Stainless Steel Body / Cast Iron Cooking Plate",
+    "specifications": [
+      {
+        "label": "Cooking Surface",
+        "value": "Combination plates"
+      },
+      {
+        "label": "Dimensions",
+        "value": "310 × 362 × 220 mm"
+      },
+      {
+        "label": "Body Material",
+        "value": "Stainless Steel"
+      },
+      {
+        "label": "Cooking Plate Material",
+        "value": "Cast Iron"
+      },
+      {
+        "label": "Temperature Range",
+        "value": "Typically 50°C–300°C"
+      },
+      {
+        "label": "Voltage",
+        "value": "220–240 V / 50 Hz"
+      },
+      {
+        "label": "Power",
+        "value": "1.8 kW (source lists 1.8 Kwh)"
+      },
+      {
+        "label": "Net Weight",
+        "value": "14 kg"
+      }
+    ],
+    "featured": false,
+    "sortOrder": 201,
+    "mainImage": "media://img-1794891112997-ixvhna",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "tsl-813": {
+    "id": "tsl-813",
+    "name": "Electric Contact Grill (Double)",
+    "category": "commercial-kitchen-equipment",
+    "subCategory": "Sandwich Griller",
+    "brandLine": "THE SILVER LINING",
+    "modelNumber": "TSL-813",
+    "description": "Double electric contact grill with dual 1.8 + 1.8 kW heating zones, stainless steel body, and cast iron combination plates.",
+    "availableSizes": [
+      "Double (580 × 400 × 210 mm)"
+    ],
+    "dimensions": "580 × 400 × 210 mm",
+    "materialDetails": "Stainless Steel Body / Cast Iron Cooking Plate",
+    "specifications": [
+      {
+        "label": "Cooking Surface",
+        "value": "Combination plates"
+      },
+      {
+        "label": "Dimensions",
+        "value": "580 × 400 × 210 mm"
+      },
+      {
+        "label": "Body Material",
+        "value": "Stainless Steel"
+      },
+      {
+        "label": "Cooking Plate Material",
+        "value": "Cast Iron"
+      },
+      {
+        "label": "Temperature Range",
+        "value": "Typically 50°C–300°C"
+      },
+      {
+        "label": "Voltage",
+        "value": "220–240 V / 50 Hz"
+      },
+      {
+        "label": "Power",
+        "value": "1.8 + 1.8 kW (source lists kWh)"
+      },
+      {
+        "label": "Net Weight",
+        "value": "24 kg"
+      }
+    ],
+    "featured": false,
+    "sortOrder": 202,
+    "mainImage": "media://img-1794891124567-rdn2zc",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "tsl-811-e": {
+    "id": "tsl-811-e",
+    "name": "Electric Contact Grill (Single) – 2.2 kW",
+    "category": "commercial-kitchen-equipment",
+    "subCategory": "Sandwich Griller",
+    "brandLine": "THE SILVER LINING",
+    "modelNumber": "TSL-811 E",
+    "description": "Higher-output 2.2 kW single electric contact grill featuring cast iron combination plates and stainless steel housing.",
+    "availableSizes": [
+      "Single (425 × 400 × 210 mm)"
+    ],
+    "dimensions": "425 × 400 × 210 mm",
+    "materialDetails": "Stainless Steel Body / Cast Iron Cooking Plate",
+    "specifications": [
+      {
+        "label": "Cooking Surface",
+        "value": "Combination plates"
+      },
+      {
+        "label": "Dimensions",
+        "value": "425 × 400 × 210 mm"
+      },
+      {
+        "label": "Body Material",
+        "value": "Stainless Steel"
+      },
+      {
+        "label": "Cooking Plate Material",
+        "value": "Cast Iron"
+      },
+      {
+        "label": "Temperature Range",
+        "value": "Typically 50°C–300°C"
+      },
+      {
+        "label": "Voltage",
+        "value": "220–240 V / 50 Hz"
+      },
+      {
+        "label": "Power",
+        "value": "2.2 kW (source lists 2.2 Kwh)"
+      },
+      {
+        "label": "Net Weight",
+        "value": "16 kg"
+      }
+    ],
+    "featured": false,
+    "sortOrder": 203,
+    "mainImage": "media://img-1794891135670-ga5cpk",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "tsl-813-e": {
+    "id": "tsl-813-e",
+    "name": "Electric Contact Grill (Double) – 2.2 + 2.2 kW",
+    "category": "commercial-kitchen-equipment",
+    "subCategory": "Sandwich Griller",
+    "brandLine": "THE SILVER LINING",
+    "modelNumber": "TSL-813 E",
+    "description": "Commercial wide double electric contact grill with 2.2 + 2.2 kW output, cast iron plates, and stainless steel construction.",
+    "availableSizes": [
+      "Double (845 × 400 × 210 mm)"
+    ],
+    "dimensions": "845 × 400 × 210 mm",
+    "materialDetails": "Stainless Steel Body / Cast Iron Cooking Plate",
+    "specifications": [
+      {
+        "label": "Cooking Surface",
+        "value": "Combination plates"
+      },
+      {
+        "label": "Dimensions",
+        "value": "845 × 400 × 210 mm"
+      },
+      {
+        "label": "Body Material",
+        "value": "Stainless Steel"
+      },
+      {
+        "label": "Cooking Plate Material",
+        "value": "Cast Iron"
+      },
+      {
+        "label": "Temperature Range",
+        "value": "Typically 50°C–300°C"
+      },
+      {
+        "label": "Voltage",
+        "value": "220–240 V / 50 Hz"
+      },
+      {
+        "label": "Power",
+        "value": "2.2 + 2.2 kW (source lists kWh)"
+      },
+      {
+        "label": "Net Weight",
+        "value": "34 kg"
+      }
+    ],
+    "featured": false,
+    "sortOrder": 204,
+    "mainImage": "media://img-1794891143237-sp195j",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "tsl-46": {
+    "id": "tsl-46",
+    "name": "Stone Pizza Oven – 16×24",
+    "category": "commercial-kitchen-equipment",
+    "subCategory": "Pizza Ovens",
+    "brandLine": "THE SILVER LINING",
+    "modelNumber": "TSL-46",
+    "description": "Commercial stone baking pizza oven with food-grade stainless steel body, 120-minute timer, and 3.2 kW heating output.",
+    "availableSizes": [
+      "16 × 24 inches"
+    ],
+    "materialDetails": "Food-Grade Stainless Steel",
+    "specifications": [
+      {
+        "label": "Voltage",
+        "value": "220–240 V / 50 Hz"
+      },
+      {
+        "label": "Cooking Area",
+        "value": "16 × 24 inches"
+      },
+      {
+        "label": "Body Material",
+        "value": "Food-Grade Stainless Steel"
+      },
+      {
+        "label": "Temperature Range",
+        "value": "Up to 50–350°C"
+      },
+      {
+        "label": "Timer",
+        "value": "120 minutes"
+      },
+      {
+        "label": "Power",
+        "value": "3.2 kW"
+      },
+      {
+        "label": "Cooking Method",
+        "value": "Stone Baking"
+      },
+      {
+        "label": "Gross Weight",
+        "value": "24 kg"
+      }
+    ],
+    "featured": true,
+    "sortOrder": 301,
+    "mainImage": "media://img-1794891160813-fmdn7x",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "tsl-1-st": {
+    "id": "tsl-1-st",
+    "name": "Stone Pizza Oven – 16×16",
+    "category": "commercial-kitchen-equipment",
+    "subCategory": "Pizza Ovens",
+    "brandLine": "THE SILVER LINING",
+    "modelNumber": "TSL-1-ST",
+    "description": "Single-deck 16 × 16 inch stone baking pizza oven constructed in food-grade stainless steel with 120-minute timer.",
+    "availableSizes": [
+      "16 × 16 inches"
+    ],
+    "materialDetails": "Food-Grade Stainless Steel",
+    "specifications": [
+      {
+        "label": "Voltage",
+        "value": "220–240 V / 50 Hz"
+      },
+      {
+        "label": "Cooking Area",
+        "value": "16 × 16 inches"
+      },
+      {
+        "label": "Body Material",
+        "value": "Food-Grade Stainless Steel"
+      },
+      {
+        "label": "Temperature Range",
+        "value": "Up to 50–350°C"
+      },
+      {
+        "label": "Timer",
+        "value": "120 minutes"
+      },
+      {
+        "label": "Power",
+        "value": "2 kW"
+      },
+      {
+        "label": "Cooking Method",
+        "value": "Stone Baking"
+      },
+      {
+        "label": "Gross Weight",
+        "value": "24 kg"
+      }
+    ],
+    "featured": false,
+    "sortOrder": 302,
+    "mainImage": "media://img-1794891174443-zjq6pp",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "tsl-2-st": {
+    "id": "tsl-2-st",
+    "name": "Double Deck Stone Pizza Oven – 16×16",
+    "category": "commercial-kitchen-equipment",
+    "subCategory": "Pizza Ovens",
+    "brandLine": "THE SILVER LINING",
+    "modelNumber": "TSL-2-ST",
+    "description": "Double-deck 16 × 16 inch stone pizza oven delivering 4 kW total baking power in a food-grade stainless steel body.",
+    "availableSizes": [
+      "16 × 16 inches (Double)"
+    ],
+    "materialDetails": "Food-Grade Stainless Steel",
+    "specifications": [
+      {
+        "label": "Voltage",
+        "value": "220–240 V / 50 Hz"
+      },
+      {
+        "label": "Timer",
+        "value": "120 minutes"
+      },
+      {
+        "label": "Cooking Area",
+        "value": "16 × 16 inches (Double)"
+      },
+      {
+        "label": "Body Material",
+        "value": "Food-Grade Stainless Steel"
+      },
+      {
+        "label": "Temperature Range",
+        "value": "Up to 50–350°C"
+      },
+      {
+        "label": "Power",
+        "value": "4 kW"
+      },
+      {
+        "label": "Cooking Method",
+        "value": "Stone Baking"
+      },
+      {
+        "label": "Gross Weight",
+        "value": "30 kg"
+      }
+    ],
+    "featured": false,
+    "sortOrder": 303,
+    "mainImage": "media://img-1794891184532-jebazx",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "tsl-55-1": {
+    "id": "tsl-55-1",
+    "name": "Stone Pizza Oven – 20×20",
+    "category": "commercial-kitchen-equipment",
+    "subCategory": "Pizza Ovens",
+    "brandLine": "THE SILVER LINING",
+    "modelNumber": "TSL-55-1",
+    "description": "Single-deck 20 × 20 inch commercial stone pizza oven with food-grade stainless steel housing and 3.2 kW power.",
+    "availableSizes": [
+      "20 × 20 inches"
+    ],
+    "materialDetails": "Food-Grade Stainless Steel",
+    "specifications": [
+      {
+        "label": "Voltage",
+        "value": "220–240 V / 50 Hz"
+      },
+      {
+        "label": "Cooking Area",
+        "value": "20 × 20 inches"
+      },
+      {
+        "label": "Body Material",
+        "value": "Food-Grade Stainless Steel"
+      },
+      {
+        "label": "Temperature Range",
+        "value": "Up to 50–350°C"
+      },
+      {
+        "label": "Power",
+        "value": "3.2 kW"
+      },
+      {
+        "label": "Cooking Method",
+        "value": "Stone Baking"
+      },
+      {
+        "label": "Gross Weight",
+        "value": "32 kg"
+      }
+    ],
+    "featured": false,
+    "sortOrder": 304,
+    "mainImage": "media://img-1794891193040-4od2du",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "tsl-55-2": {
+    "id": "tsl-55-2",
+    "name": "Double Deck Stone Pizza Oven – 20×20",
+    "category": "commercial-kitchen-equipment",
+    "subCategory": "Pizza Ovens",
+    "brandLine": "THE SILVER LINING",
+    "modelNumber": "TSL-55-2",
+    "description": "High-output double-deck 20 × 20 inch stone pizza oven rated at 3.2 kW + 3.2 kW (6.4 kW) with food-grade stainless steel body.",
+    "availableSizes": [
+      "20 × 20 inches (Double Deck)"
+    ],
+    "materialDetails": "Food-Grade Stainless Steel",
+    "specifications": [
+      {
+        "label": "Voltage",
+        "value": "220–240 V / 50 Hz"
+      },
+      {
+        "label": "Frequency",
+        "value": "50 Hz"
+      },
+      {
+        "label": "Cooking Area",
+        "value": "20 × 20 inches"
+      },
+      {
+        "label": "Body Material",
+        "value": "Food-Grade Stainless Steel"
+      },
+      {
+        "label": "Temperature Range",
+        "value": "Up to 50–350°C"
+      },
+      {
+        "label": "Power",
+        "value": "3.2 kW + 3.2 kW = 6.4 kW"
+      },
+      {
+        "label": "Cooking Method",
+        "value": "Stone Baking"
+      },
+      {
+        "label": "Gross Weight",
+        "value": "61 kg"
+      }
+    ],
+    "featured": false,
+    "sortOrder": 305,
+    "mainImage": "media://img-1794891202475-hcjd69",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "tsl-3500": {
+    "id": "tsl-3500",
+    "name": "Induction Cooker 3.5 kW",
+    "category": "commercial-kitchen-equipment",
+    "subCategory": "Commercial Induction Cooker",
+    "brandLine": "THE SILVER LINING",
+    "modelNumber": "TSL-3500",
+    "description": "Commercial 3.5 kW induction cooker featuring a glass-ceramic cooking plate, copper heating plate, and up to 120 kg load capacity.",
+    "availableSizes": [
+      "3.5 kW (300 × 300 mm Plate)"
+    ],
+    "dimensions": "355 × 435 × 145 mm",
+    "materialDetails": "Glass-Ceramic Plate / Copper Heating Plate",
+    "specifications": [
+      {
+        "label": "Power Supply",
+        "value": "3.5 kW"
+      },
+      {
+        "label": "Voltage",
+        "value": "220–240V / 50–60 Hz"
+      },
+      {
+        "label": "Load Capacity",
+        "value": "Up to 120 kg"
+      },
+      {
+        "label": "Machine Dimensions",
+        "value": "355 × 435 × 145 mm"
+      },
+      {
+        "label": "Gross Weight",
+        "value": "5.33 kg"
+      },
+      {
+        "label": "Cooking Area",
+        "value": "300 × 300 mm"
+      },
+      {
+        "label": "Cooking Surface",
+        "value": "Glass-Ceramic Plate"
+      },
+      {
+        "label": "Heating System",
+        "value": "Copper Heating Plate"
+      }
+    ],
+    "featured": false,
+    "sortOrder": 401,
+    "mainImage": "media://img-1794891236714-3tndte",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "tsl-3500a": {
+    "id": "tsl-3500a",
+    "name": "Induction Cooker 3.5 kW (Wok)",
+    "category": "commercial-kitchen-equipment",
+    "subCategory": "Commercial Induction Cooker",
+    "brandLine": "THE SILVER LINING",
+    "modelNumber": "TSL-3500A",
+    "description": "Commercial 3.5 kW concave wok induction cooker with R277 × 46 mm concave glass-ceramic plate and copper heating plate.",
+    "availableSizes": [
+      "3.5 kW (Concave R277 × 46 mm)"
+    ],
+    "dimensions": "355 × 435 × 145 mm",
+    "materialDetails": "Concave Glass-Ceramic Plate / Copper Heating Plate",
+    "specifications": [
+      {
+        "label": "Power Supply",
+        "value": "3.5 kW"
+      },
+      {
+        "label": "Voltage",
+        "value": "220–240V / 50–60 Hz"
+      },
+      {
+        "label": "Load Capacity",
+        "value": "Up to 120 kg"
+      },
+      {
+        "label": "Machine Dimensions",
+        "value": "355 × 435 × 145 mm"
+      },
+      {
+        "label": "Gross Weight",
+        "value": "5.53 kg"
+      },
+      {
+        "label": "Cooking Surface",
+        "value": "Concave Glass-Ceramic Plate"
+      },
+      {
+        "label": "Concave Size",
+        "value": "R277 × 46 mm"
+      },
+      {
+        "label": "Heating System",
+        "value": "Copper Heating Plate"
+      },
+      {
+        "label": "Cooking Type",
+        "value": "Wok-Style Cooking"
+      }
+    ],
+    "featured": false,
+    "sortOrder": 402,
+    "mainImage": "media://img-1794891254441-q002a5",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "tsl-5000": {
+    "id": "tsl-5000",
+    "name": "Induction Cooker 5.0 kW",
+    "category": "commercial-kitchen-equipment",
+    "subCategory": "Commercial Induction Cooker",
+    "brandLine": "THE SILVER LINING",
+    "modelNumber": "TSL-5000",
+    "description": "Heavy-duty 5.0 kW flat glass-ceramic commercial induction cooker supporting up to 200 kg load capacity.",
+    "availableSizes": [
+      "5.0 kW (300 × 300 mm Flat Plate)"
+    ],
+    "dimensions": "400 × 515 × 195 mm",
+    "materialDetails": "Flat Glass-Ceramic Plate / Copper Heating Plate",
+    "specifications": [
+      {
+        "label": "Power Supply",
+        "value": "5 kW"
+      },
+      {
+        "label": "Voltage",
+        "value": "220–240V / 50–60 Hz"
+      },
+      {
+        "label": "Load Capacity",
+        "value": "Up to 200 kg"
+      },
+      {
+        "label": "Machine Dimensions",
+        "value": "400 × 515 × 195 mm"
+      },
+      {
+        "label": "Gross Weight",
+        "value": "7 kg"
+      },
+      {
+        "label": "Cooking Surface",
+        "value": "Flat Glass-Ceramic Plate"
+      },
+      {
+        "label": "Cooking Area",
+        "value": "300 × 300 mm"
+      },
+      {
+        "label": "Heating System",
+        "value": "Copper Heating Plate"
+      }
+    ],
+    "featured": false,
+    "sortOrder": 403,
+    "mainImage": "media://img-1794891266675-2d2yf2",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "tsl-5000a": {
+    "id": "tsl-5000a",
+    "name": "Induction Cooker 5.0 kW (Wok)",
+    "category": "commercial-kitchen-equipment",
+    "subCategory": "Commercial Induction Cooker",
+    "brandLine": "THE SILVER LINING",
+    "modelNumber": "TSL-5000A",
+    "description": "Heavy-duty 5.0 kW concave wok-style induction cooker with R311 × 65 mm glass-ceramic surface and up to 200 kg load capacity.",
+    "availableSizes": [
+      "5.0 kW (Concave R311 × 65 mm)"
+    ],
+    "dimensions": "400 × 515 × 195 mm",
+    "materialDetails": "Concave Glass-Ceramic Plate / Copper Heating Plate",
+    "specifications": [
+      {
+        "label": "Power Supply",
+        "value": "5 kW"
+      },
+      {
+        "label": "Voltage",
+        "value": "220–240V / 50–60 Hz"
+      },
+      {
+        "label": "Load Capacity",
+        "value": "Up to 200 kg"
+      },
+      {
+        "label": "Machine Dimensions",
+        "value": "400 × 515 × 195 mm"
+      },
+      {
+        "label": "Gross Weight",
+        "value": "7 kg"
+      },
+      {
+        "label": "Cooking Surface",
+        "value": "Concave Glass-Ceramic Plate"
+      },
+      {
+        "label": "Concave Size",
+        "value": "R311 × 65 mm"
+      },
+      {
+        "label": "Heating System",
+        "value": "Copper Heating Plate"
+      },
+      {
+        "label": "Cooking Type",
+        "value": "Wok-Style Cooking"
+      }
+    ],
+    "featured": false,
+    "sortOrder": 404,
+    "mainImage": "media://img-1794891275861-jzqahu",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "tsl-t4": {
+    "id": "tsl-t4",
+    "name": "4 Slice Pop-Up Toaster",
+    "category": "commercial-kitchen-equipment",
+    "subCategory": "Toasting Equipment",
+    "brandLine": "THE SILVER LINING",
+    "modelNumber": "TSL-T4",
+    "description": "Commercial 4-slice electric pop-up toaster rated at 2.24 kW with electric heating elements.",
+    "availableSizes": [
+      "4 Slices"
+    ],
+    "dimensions": "330 × 260 × 220 mm",
+    "specifications": [
+      {
+        "label": "Type",
+        "value": "4-Slice Electric Toaster"
+      },
+      {
+        "label": "Power Supply",
+        "value": "2.24 kW"
+      },
+      {
+        "label": "Voltage",
+        "value": "220–240V"
+      },
+      {
+        "label": "Frequency",
+        "value": "50–60 Hz"
+      },
+      {
+        "label": "Machine Dimensions",
+        "value": "330 × 260 × 220 mm"
+      },
+      {
+        "label": "Gross Weight",
+        "value": "4.4 kg"
+      },
+      {
+        "label": "Slice Capacity",
+        "value": "4 Slices"
+      },
+      {
+        "label": "Heating System",
+        "value": "Electric Heating Elements"
+      }
+    ],
+    "featured": false,
+    "sortOrder": 501,
+    "mainImage": "media://img-1794891285950-mgssv9",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "tsl-t6": {
+    "id": "tsl-t6",
+    "name": "6 Slice Pop-Up Toaster",
+    "category": "commercial-kitchen-equipment",
+    "subCategory": "Toasting Equipment",
+    "brandLine": "THE SILVER LINING",
+    "modelNumber": "TSL-T6",
+    "description": "Commercial 6-slice electric pop-up toaster rated at 3.2 kW for buffet and breakfast service.",
+    "availableSizes": [
+      "6 Slices"
+    ],
+    "dimensions": "460 × 210 × 225 mm",
+    "specifications": [
+      {
+        "label": "Type",
+        "value": "6-Slice Electric Toaster"
+      },
+      {
+        "label": "Power Supply",
+        "value": "3.2 kW"
+      },
+      {
+        "label": "Voltage",
+        "value": "220–240V / 50–60 Hz"
+      },
+      {
+        "label": "Machine Dimensions",
+        "value": "460 × 210 × 225 mm"
+      },
+      {
+        "label": "Slice Capacity",
+        "value": "6 Slices"
+      },
+      {
+        "label": "Heating System",
+        "value": "Electric Heating Elements"
+      },
+      {
+        "label": "Gross Weight",
+        "value": "5.9 kg"
+      }
+    ],
+    "featured": false,
+    "sortOrder": 502,
+    "mainImage": "media://img-1794891293388-monxo6",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "tsl-936": {
+    "id": "tsl-936",
+    "name": "Electric Salamander (2 kW)",
+    "category": "commercial-kitchen-equipment",
+    "subCategory": "Roasting Equipment",
+    "brandLine": "THE SILVER LINING",
+    "modelNumber": "TSL-936",
+    "description": "Compact 2 kW stainless steel electric salamander equipped with a 15-minute timer.",
+    "availableSizes": [
+      "2 kW (610 × 310 × 280 mm)"
+    ],
+    "dimensions": "610 × 310 × 280 mm",
+    "materialDetails": "Stainless Steel",
+    "specifications": [
+      {
+        "label": "Type",
+        "value": "Electric Salamander"
+      },
+      {
+        "label": "Power Supply",
+        "value": "2 kW"
+      },
+      {
+        "label": "Voltage",
+        "value": "220–240V"
+      },
+      {
+        "label": "Frequency",
+        "value": "50–60 Hz"
+      },
+      {
+        "label": "Machine Dimensions",
+        "value": "610 × 310 × 280 mm"
+      },
+      {
+        "label": "Body Material",
+        "value": "Stainless Steel"
+      },
+      {
+        "label": "Timer",
+        "value": "15-Minute Timer"
+      }
+    ],
+    "featured": false,
+    "sortOrder": 601,
+    "mainImage": "media://img-1794891331030-22gkym",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "tsl-938": {
+    "id": "tsl-938",
+    "name": "Electric Salamander (2.2 kW)",
+    "category": "commercial-kitchen-equipment",
+    "subCategory": "Roasting Equipment",
+    "brandLine": "THE SILVER LINING",
+    "modelNumber": "TSL-938",
+    "description": "Stainless steel 2.2 kW electric salamander with electric heating elements and 15-minute timer.",
+    "availableSizes": [
+      "2.2 kW (580 × 390 × 380 mm)"
+    ],
+    "dimensions": "580 × 390 × 380 mm",
+    "materialDetails": "Stainless Steel",
+    "specifications": [
+      {
+        "label": "Power Supply",
+        "value": "2.2 kW"
+      },
+      {
+        "label": "Voltage",
+        "value": "220–240V"
+      },
+      {
+        "label": "Frequency",
+        "value": "50–60 Hz"
+      },
+      {
+        "label": "Machine Dimensions",
+        "value": "580 × 390 × 380 mm"
+      },
+      {
+        "label": "Body Material",
+        "value": "Stainless Steel"
+      },
+      {
+        "label": "Timer",
+        "value": "15-Minute Timer"
+      },
+      {
+        "label": "Heating System",
+        "value": "Electric Heating Elements"
+      }
+    ],
+    "featured": false,
+    "sortOrder": 602,
+    "mainImage": "media://img-1794891347167-jncx6t",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "tsl-937": {
+    "id": "tsl-937",
+    "name": "Electric Salamander (4 kW)",
+    "category": "commercial-kitchen-equipment",
+    "subCategory": "Roasting Equipment",
+    "brandLine": "THE SILVER LINING",
+    "modelNumber": "TSL-937",
+    "description": "High-power 4 kW commercial electric salamander in stainless steel with 15-minute timer and electric heating elements.",
+    "availableSizes": [
+      "4 kW (790 × 450 × 490 mm)"
+    ],
+    "dimensions": "790 × 450 × 490 mm",
+    "materialDetails": "Stainless Steel",
+    "specifications": [
+      {
+        "label": "Power Supply",
+        "value": "4 kW"
+      },
+      {
+        "label": "Voltage",
+        "value": "220–240V"
+      },
+      {
+        "label": "Frequency",
+        "value": "50–60 Hz"
+      },
+      {
+        "label": "Machine Dimensions",
+        "value": "790 × 450 × 490 mm"
+      },
+      {
+        "label": "Body Material",
+        "value": "Stainless Steel"
+      },
+      {
+        "label": "Timer",
+        "value": "15-Minute Timer"
+      },
+      {
+        "label": "Heating System",
+        "value": "Electric Heating Elements"
+      }
+    ],
+    "featured": false,
+    "sortOrder": 603,
+    "mainImage": "media://img-1794891376684-4v0leb",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "tsl-820": {
+    "id": "tsl-820",
+    "name": "Electric Griddle – Full Plain (730 × 430 mm)",
+    "category": "commercial-kitchen-equipment",
+    "subCategory": "Cooking Equipment",
+    "brandLine": "THE SILVER LINING",
+    "modelNumber": "TSL-820",
+    "description": "Commercial full-plain electric griddle featuring an 8 mm thick steel cooking plate, adjustable thermostat, and 4.4 kW power.",
+    "availableSizes": [
+      "730 × 430 mm Cooking Area"
+    ],
+    "dimensions": "730 × 470 × 240 mm",
+    "materialDetails": "8 mm Thick Steel Cooking Plate",
+    "specifications": [
+      {
+        "label": "Cooking Area",
+        "value": "730 × 430 mm"
+      },
+      {
+        "label": "Cooking Plate",
+        "value": "8 mm Thick Steel Cooking Plate"
+      },
+      {
+        "label": "Temperature Control",
+        "value": "Adjustable Thermostat"
+      },
+      {
+        "label": "Power",
+        "value": "4.4 kW"
+      },
+      {
+        "label": "Voltage",
+        "value": "220–240V"
+      },
+      {
+        "label": "Frequency",
+        "value": "50–60 Hz"
+      },
+      {
+        "label": "Machine Dimensions",
+        "value": "730 × 470 × 240 mm"
+      },
+      {
+        "label": "Gross Weight",
+        "value": "34 kg"
+      },
+      {
+        "label": "Heating System",
+        "value": "Electric Heating"
+      }
+    ],
+    "featured": false,
+    "sortOrder": 701,
+    "mainImage": "media://img-1794891432061-eolj9b",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "tsl-828a": {
+    "id": "tsl-828a",
+    "name": "Electric Griddle – Half Groove & Half Plain",
+    "category": "commercial-kitchen-equipment",
+    "subCategory": "Cooking Equipment",
+    "brandLine": "THE SILVER LINING",
+    "modelNumber": "TSL-828A",
+    "description": "Half-groove and half-plain electric griddle with 550 × 430 mm cooking area, 8 mm thick steel plate, and 3 kW heating.",
+    "availableSizes": [
+      "550 × 430 mm Cooking Area"
+    ],
+    "dimensions": "550 × 430 × 240 mm",
+    "materialDetails": "8 mm Thick Steel Cooking Plate",
+    "specifications": [
+      {
+        "label": "Cooking Area",
+        "value": "550 × 430 mm"
+      },
+      {
+        "label": "Cooking Plate",
+        "value": "8 mm Thick Steel Cooking Plate"
+      },
+      {
+        "label": "Temperature Control",
+        "value": "Adjustable Thermostat"
+      },
+      {
+        "label": "Power",
+        "value": "3 kW"
+      },
+      {
+        "label": "Voltage",
+        "value": "220–240V"
+      },
+      {
+        "label": "Frequency",
+        "value": "50–60 Hz"
+      },
+      {
+        "label": "Machine Dimensions",
+        "value": "550 × 430 × 240 mm"
+      },
+      {
+        "label": "Gross Weight",
+        "value": "23 kg"
+      },
+      {
+        "label": "Heating System",
+        "value": "Electric Heating"
+      }
+    ],
+    "featured": false,
+    "sortOrder": 702,
+    "mainImage": "media://img-1794891445237-86rch5",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "tsl-818a": {
+    "id": "tsl-818a",
+    "name": "Electric Griddle – Full Plain (550 × 430 mm)",
+    "category": "commercial-kitchen-equipment",
+    "subCategory": "Cooking Equipment",
+    "brandLine": "THE SILVER LINING",
+    "modelNumber": "TSL-818A",
+    "description": "Compact 550 × 430 mm full-plain electric griddle with 8 mm thick steel cooking plate and 50–300°C single thermostat control.",
+    "availableSizes": [
+      "550 × 430 mm Cooking Area"
+    ],
+    "dimensions": "550 × 430 × 240 mm",
+    "materialDetails": "Steel Cooking Plate, 8 mm Thick",
+    "specifications": [
+      {
+        "label": "Cooking Area",
+        "value": "550 × 430 mm"
+      },
+      {
+        "label": "Cooking Plate",
+        "value": "Steel Cooking Plate, 8 mm Thick"
+      },
+      {
+        "label": "Temperature",
+        "value": "50–300°C"
+      },
+      {
+        "label": "Temperature Control",
+        "value": "One Thermostat"
+      },
+      {
+        "label": "Power",
+        "value": "3 kW"
+      },
+      {
+        "label": "Voltage",
+        "value": "220–240V"
+      },
+      {
+        "label": "Frequency",
+        "value": "50–60 Hz"
+      },
+      {
+        "label": "Machine Dimensions",
+        "value": "550 × 430 × 240 mm"
+      },
+      {
+        "label": "Gross Weight",
+        "value": "25 kg"
+      }
+    ],
+    "featured": false,
+    "sortOrder": 703,
+    "mainImage": "media://img-1794891457314-fhf62j",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "tsl-822": {
+    "id": "tsl-822",
+    "name": "Electric Griddle – Half Groove & Half Plain (730 × 430 mm)",
+    "category": "commercial-kitchen-equipment",
+    "subCategory": "Cooking Equipment",
+    "brandLine": "THE SILVER LINING",
+    "modelNumber": "TSL-822",
+    "description": "Wide 730 × 430 mm half-groove and half-plain electric griddle with 8 mm thick steel plate, adjustable thermostat, and 4.4 kW power.",
+    "availableSizes": [
+      "730 × 430 mm Cooking Area"
+    ],
+    "dimensions": "730 × 470 × 240 mm",
+    "materialDetails": "8 mm Thick Steel Cooking Plate",
+    "specifications": [
+      {
+        "label": "Cooking Area",
+        "value": "730 × 430 mm"
+      },
+      {
+        "label": "Cooking Plate",
+        "value": "8 mm Thick Steel Cooking Plate"
+      },
+      {
+        "label": "Temperature Control",
+        "value": "Adjustable Thermostat"
+      },
+      {
+        "label": "Power",
+        "value": "4.4 kW"
+      },
+      {
+        "label": "Voltage",
+        "value": "220–240V"
+      },
+      {
+        "label": "Frequency",
+        "value": "50–60 Hz"
+      },
+      {
+        "label": "Machine Dimensions",
+        "value": "730 × 470 × 240 mm"
+      },
+      {
+        "label": "Gross Weight",
+        "value": "34 kg"
+      }
+    ],
+    "featured": false,
+    "sortOrder": 704,
+    "mainImage": "media://img-1794891465778-dwvnyv",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "tsl-wb1": {
+    "id": "tsl-wb1",
+    "name": "Waffle Baker",
+    "category": "commercial-kitchen-equipment",
+    "subCategory": "Baking Equipment",
+    "brandLine": "THE SILVER LINING",
+    "modelNumber": "TSL-WB1",
+    "description": "Commercial electric waffle baker with adjustable 50–300°C temperature control and 1.2 kW heating system.",
+    "availableSizes": [
+      "385 × 310 × 295 mm"
+    ],
+    "dimensions": "385 × 310 × 295 mm",
+    "specifications": [
+      {
+        "label": "Cooking Temperature",
+        "value": "50–300°C"
+      },
+      {
+        "label": "Voltage",
+        "value": "220–240V"
+      },
+      {
+        "label": "Power",
+        "value": "1.2 kW"
+      },
+      {
+        "label": "Machine Dimensions",
+        "value": "385 × 310 × 295 mm"
+      },
+      {
+        "label": "Gross Weight",
+        "value": "5.7 kg"
+      },
+      {
+        "label": "Heating System",
+        "value": "Electric Heating"
+      },
+      {
+        "label": "Temperature Control",
+        "value": "Adjustable"
+      }
+    ],
+    "featured": false,
+    "sortOrder": 801,
+    "mainImage": "media://img-1794891483830-7kphsw",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  },
+  "tsl-ms-01": {
+    "id": "tsl-ms-01",
+    "name": "Momo Steamer",
+    "category": "commercial-kitchen-equipment",
+    "subCategory": "Steaming Equipment",
+    "brandLine": "THE SILVER LINING",
+    "modelNumber": "TSL-MS-01",
+    "description": "Commercial food-grade stainless steel momo steamer compatible with both induction and gas stoves.",
+    "availableSizes": [
+      "28 cm",
+      "30 cm",
+      "32 cm",
+      "36 cm"
+    ],
+    "materialDetails": "Food-Grade Stainless Steel",
+    "specifications": [
+      {
+        "label": "Sizes",
+        "value": "28 cm, 30 cm, 32 cm & 36 cm"
+      },
+      {
+        "label": "Type",
+        "value": "Commercial Momo Steamer"
+      },
+      {
+        "label": "Body Material",
+        "value": "Food-Grade Stainless Steel"
+      },
+      {
+        "label": "Heating Compatibility",
+        "value": "Suitable for Induction & Gas Stove"
+      }
+    ],
+    "featured": false,
+    "sortOrder": 901,
+    "mainImage": "media://img-1794891495249-frs6bb",
+    "mainImagePosition": "50% 50%",
+    "mainImageFit": "contain",
+    "isAvailable": true,
+    "createdAt": {
+      "_methodName": "serverTimestamp"
+    },
+    "updatedAt": {
+      "_methodName": "serverTimestamp"
+    }
+  }
+}

@@ -1,0 +1,335 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Global safety net: default deny
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function existing() {
+      return resource.data;
+    }
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isAdmin() {
+      return isSignedIn()
+        && request.auth.token.email_verified == true
+        && (
+          request.auth.token.email == 'infoshridurgasteels@gmail.com'
+          || exists(/databases/$(database)/documents/admins/$(request.auth.uid))
+        );
+    }
+
+    function isValidCategory(cat) {
+      return cat in ['kitchenware-home-utility', 'gn-pans', 'commercial-kitchen-equipment'];
+    }
+
+    function isValidMediaUsage(usage) {
+      return usage in [
+        'branding',
+        'homepage',
+        'about',
+        'kitchenware',
+        'gn-pans',
+        'commercial-kitchen',
+        'general'
+      ];
+    }
+
+    function isValidProduct(data) {
+      return data.keys().hasAll(['id', 'name', 'category', 'modelNumber', 'description', 'featured', 'sortOrder', 'createdAt', 'updatedAt'])
+        && data.keys().hasOnly(['id', 'name', 'category', 'subCategory', 'brandLine', 'modelNumber', 'mainImage', 'mainImagePosition', 'mainImageFit', 'additionalImages', 'description', 'availableSizes', 'dimensions', 'materialDetails', 'specifications', 'gnSize', 'productType', 'matchingLidId', 'variants', 'packagingInfo', 'filterTags', 'isAvailable', 'relatedProductIds', 'featured', 'sortOrder', 'createdAt', 'updatedAt'])
+        && data.id is string && isValidId(data.id)
+        && data.name is string && data.name.size() >= 1 && data.name.size() <= 200
+        && isValidCategory(data.category)
+        && (!('subCategory' in data) || (data.subCategory is string && data.subCategory.size() <= 120))
+        && (!('brandLine' in data) || (data.brandLine is string && data.brandLine.size() <= 120))
+        && data.modelNumber is string && data.modelNumber.size() <= 80
+        && (!('mainImage' in data) || (data.mainImage is string && data.mainImage.size() <= 700000))
+        && (!('mainImagePosition' in data) || (data.mainImagePosition is string && data.mainImagePosition.size() <= 60))
+        && (!('mainImageFit' in data) || data.mainImageFit in ['contain', 'cover'])
+        && (!('additionalImages' in data) || (data.additionalImages is list && data.additionalImages.size() <= 6 && (data.additionalImages.size() == 0 || (data.additionalImages[0] is string && data.additionalImages[0].size() <= 700000))))
+        && data.description is string && data.description.size() <= 3000
+        && (!('availableSizes' in data) || (data.availableSizes is list && data.availableSizes.size() <= 30 && (data.availableSizes.size() == 0 || (data.availableSizes[0] is string && data.availableSizes[0].size() <= 80))))
+        && (!('dimensions' in data) || (data.dimensions is string && data.dimensions.size() <= 300))
+        && (!('materialDetails' in data) || (data.materialDetails is string && data.materialDetails.size() <= 500))
+        && (!('specifications' in data) || (data.specifications is list && data.specifications.size() <= 30 && (data.specifications.size() == 0 || (data.specifications[0] is map && data.specifications[0].keys().hasAll(['label', 'value']) && data.specifications[0].keys().hasOnly(['label', 'value']) && data.specifications[0].label is string && data.specifications[0].label.size() <= 100 && data.specifications[0].value is string && data.specifications[0].value.size() <= 300))))
+        && (!('gnSize' in data) || (data.gnSize is string && data.gnSize.size() <= 40))
+        && (!('productType' in data) || data.productType in ['gn-pan', 'gn-lid', 'ice-cream-pan', 'equipment', 'kitchenware'])
+        && (!('matchingLidId' in data) || (data.matchingLidId is string && isValidId(data.matchingLidId)))
+        && (!('variants' in data) || (data.variants is list && data.variants.size() <= 30 && (data.variants.size() == 0 || (data.variants[0] is map && data.variants[0].keys().hasAll(['label']) && data.variants[0].keys().hasOnly(['label', 'modelCode', 'variantGroup', 'depthMm', 'dimensionsMm', 'dimensionsIn', 'capacity', 'individualWeight', 'packagingWeight', 'packingQty', 'netPrice']) && data.variants[0].label is string && data.variants[0].label.size() >= 1 && data.variants[0].label.size() <= 100 && (!('modelCode' in data.variants[0]) || (data.variants[0].modelCode is string && data.variants[0].modelCode.size() <= 60)) && (!('variantGroup' in data.variants[0]) || (data.variants[0].variantGroup is string && data.variants[0].variantGroup.size() <= 60)) && (!('depthMm' in data.variants[0]) || (data.variants[0].depthMm is string && data.variants[0].depthMm.size() <= 40)) && (!('dimensionsMm' in data.variants[0]) || (data.variants[0].dimensionsMm is string && data.variants[0].dimensionsMm.size() <= 80)) && (!('dimensionsIn' in data.variants[0]) || (data.variants[0].dimensionsIn is string && data.variants[0].dimensionsIn.size() <= 80)) && (!('capacity' in data.variants[0]) || (data.variants[0].capacity is string && data.variants[0].capacity.size() <= 40)) && (!('individualWeight' in data.variants[0]) || (data.variants[0].individualWeight is string && data.variants[0].individualWeight.size() <= 60)) && (!('packagingWeight' in data.variants[0]) || (data.variants[0].packagingWeight is string && data.variants[0].packagingWeight.size() <= 80)) && (!('packingQty' in data.variants[0]) || (data.variants[0].packingQty is string && data.variants[0].packingQty.size() <= 40)) && (!('netPrice' in data.variants[0]) || (data.variants[0].netPrice is number && data.variants[0].netPrice >= 0))))))
+        && (!('packagingInfo' in data) || (data.packagingInfo is string && data.packagingInfo.size() <= 300))
+        && (!('filterTags' in data) || (data.filterTags is list && data.filterTags.size() <= 10 && (data.filterTags.size() == 0 || (data.filterTags[0] is string && data.filterTags[0].size() <= 40))))
+        && (!('isAvailable' in data) || data.isAvailable is bool)
+        && (!('relatedProductIds' in data) || (data.relatedProductIds is list && data.relatedProductIds.size() <= 10 && (data.relatedProductIds.size() == 0 || (data.relatedProductIds[0] is string && isValidId(data.relatedProductIds[0])))))
+        && data.featured is bool
+        && data.sortOrder is number
+        && data.createdAt is timestamp
+        && data.updatedAt is timestamp;
+    }
+
+    function isValidEnquiry(data) {
+      return data.keys().hasAll(['id', 'name', 'companyName', 'phone', 'email', 'city', 'country', 'items', 'status', 'createdAt', 'updatedAt'])
+        && data.keys().hasOnly(['id', 'name', 'companyName', 'phone', 'email', 'city', 'country', 'message', 'items', 'status', 'adminNotes', 'createdAt', 'updatedAt'])
+        && data.id is string && isValidId(data.id)
+        && data.name is string && data.name.size() >= 1 && data.name.size() <= 120
+        && data.companyName is string && data.companyName.size() >= 1 && data.companyName.size() <= 160
+        && data.phone is string && data.phone.size() >= 5 && data.phone.size() <= 40
+        && data.email is string && data.email.size() >= 3 && data.email.size() <= 160
+        && data.city is string && data.city.size() >= 1 && data.city.size() <= 100
+        && data.country is string && data.country.size() >= 1 && data.country.size() <= 100
+        && (!('message' in data) || (data.message is string && data.message.size() <= 2000))
+        && (!('adminNotes' in data) || (data.adminNotes is string && data.adminNotes.size() <= 2000))
+        && data.items is list && data.items.size() >= 1 && data.items.size() <= 25
+        && data.items[0] is map
+        && data.items[0].keys().hasAll(['category', 'productName', 'modelOrSize', 'quantity'])
+        && data.items[0].keys().hasOnly(['productId', 'category', 'productName', 'modelOrSize', 'quantity', 'notes'])
+        && data.items[0].category is string && data.items[0].category.size() <= 80
+        && data.items[0].productName is string && data.items[0].productName.size() >= 1 && data.items[0].productName.size() <= 200
+        && data.items[0].modelOrSize is string && data.items[0].modelOrSize.size() <= 120
+        && data.items[0].quantity is number && data.items[0].quantity >= 1 && data.items[0].quantity <= 10000000
+        && data.status in ['new', 'reviewed', 'quoted', 'closed']
+        && data.createdAt is timestamp
+        && data.updatedAt is timestamp;
+    }
+
+    function isValidSettings(data) {
+      return data.keys().hasAll(['emailPlaceholder', 'phonePlaceholder', 'whatsappNumber', 'addressPlaceholder', 'showPlaceholderSlots', 'updatedAt'])
+        && data.keys().hasOnly(['emailPlaceholder', 'phonePlaceholder', 'whatsappNumber', 'addressPlaceholder', 'aboutOverview', 'manufacturingCapabilities', 'qualityCommitment', 'industryExperience', 'customerCommitment', 'showPlaceholderSlots', 'showPrices', 'updatedAt'])
+        && data.emailPlaceholder is string && data.emailPlaceholder.size() <= 160
+        && data.phonePlaceholder is string && data.phonePlaceholder.size() <= 60
+        && data.whatsappNumber is string && data.whatsappNumber.size() <= 40
+        && data.addressPlaceholder is string && data.addressPlaceholder.size() <= 400
+        && (!('aboutOverview' in data) || (data.aboutOverview is string && data.aboutOverview.size() <= 3000))
+        && (!('manufacturingCapabilities' in data) || (data.manufacturingCapabilities is string && data.manufacturingCapabilities.size() <= 2000))
+        && (!('qualityCommitment' in data) || (data.qualityCommitment is string && data.qualityCommitment.size() <= 2000))
+        && (!('industryExperience' in data) || (data.industryExperience is string && data.industryExperience.size() <= 2000))
+        && (!('customerCommitment' in data) || (data.customerCommitment is string && data.customerCommitment.size() <= 2000))
+        && data.showPlaceholderSlots is bool
+        && (!('showPrices' in data) || data.showPrices is bool)
+        && data.updatedAt is timestamp;
+    }
+
+    function isValidMediaAsset(data) {
+      return data.keys().hasAll(['id', 'name', 'usage', 'dataUrl', 'mimeType', 'createdAt', 'updatedAt'])
+        && data.keys().hasOnly(['id', 'name', 'usage', 'dataUrl', 'mimeType', 'width', 'height', 'altText', 'createdAt', 'updatedAt'])
+        && data.id is string && isValidId(data.id)
+        && data.name is string && data.name.size() >= 1 && data.name.size() <= 160
+        && isValidMediaUsage(data.usage)
+        && data.dataUrl is string && data.dataUrl.size() >= 10 && data.dataUrl.size() <= 800000
+        && data.mimeType is string && data.mimeType.size() >= 3 && data.mimeType.size() <= 60
+        && (!('width' in data) || (data.width is number && data.width >= 0 && data.width <= 20000))
+        && (!('height' in data) || (data.height is number && data.height >= 0 && data.height <= 20000))
+        && (!('altText' in data) || (data.altText is string && data.altText.size() <= 240))
+        && data.createdAt is timestamp
+        && data.updatedAt is timestamp;
+    }
+
+    function isValidSiteContent(data) {
+      return data.keys().hasAll(['id', 'updatedAt'])
+        && data.keys().hasOnly(['id', 'textOverrides', 'extraParagraphs', 'imageOverrides', 'categoryOverrides', 'whyChooseItems', 'aboutIntroParagraphs', 'aboutBlocks', 'aboutPhotos', 'aboutImagePlacement', 'logoUrl', 'logoAlt', 'logoPosition', 'logoDeleted', 'heroVideoId', 'heroMobileVideoId', 'heroPreviousVideoId', 'heroPreviousMobileVideoId', 'heroOverlayOpacity', 'heroMediaType', 'updatedAt'])
+        && data.id in ['published', 'draft']
+        && (!('textOverrides' in data) || (data.textOverrides is map && data.textOverrides.size() <= 300))
+        && (!('extraParagraphs' in data) || (data.extraParagraphs is map && data.extraParagraphs.size() <= 100))
+        && (!('imageOverrides' in data) || (data.imageOverrides is map && data.imageOverrides.size() <= 60))
+        && (!('categoryOverrides' in data) || (data.categoryOverrides is map && data.categoryOverrides.size() <= 10))
+        && (!('whyChooseItems' in data) || (data.whyChooseItems is list && data.whyChooseItems.size() <= 20 && (data.whyChooseItems.size() == 0 || (data.whyChooseItems[0] is map && data.whyChooseItems[0].keys().hasAll(['index', 'title', 'description']) && data.whyChooseItems[0].keys().hasOnly(['index', 'title', 'description'])))))
+        && (!('aboutIntroParagraphs' in data) || (data.aboutIntroParagraphs is list && data.aboutIntroParagraphs.size() <= 30 && (data.aboutIntroParagraphs.size() == 0 || (data.aboutIntroParagraphs[0] is string && data.aboutIntroParagraphs[0].size() <= 3000))))
+        && (!('aboutBlocks' in data) || (data.aboutBlocks is list && data.aboutBlocks.size() <= 30 && (data.aboutBlocks.size() == 0 || (data.aboutBlocks[0] is map && data.aboutBlocks[0].keys().hasAll(['id', 'heading', 'paragraphs']) && data.aboutBlocks[0].keys().hasOnly(['id', 'heading', 'paragraphs'])))))
+        && (!('aboutPhotos' in data) || (data.aboutPhotos is list && data.aboutPhotos.size() <= 30 && (data.aboutPhotos.size() == 0 || (data.aboutPhotos[0] is map && data.aboutPhotos[0].keys().hasAll(['id', 'src']) && data.aboutPhotos[0].keys().hasOnly(['id', 'src', 'alt', 'caption', 'position', 'fit', 'mediaType', 'videoId'])))))
+        && (!('aboutImagePlacement' in data) || data.aboutImagePlacement in ['left', 'right'])
+        && (!('logoUrl' in data) || (data.logoUrl is string && data.logoUrl.size() <= 700000))
+        && (!('logoAlt' in data) || (data.logoAlt is string && data.logoAlt.size() <= 200))
+        && (!('logoPosition' in data) || (data.logoPosition is string && data.logoPosition.size() <= 60))
+        && (!('logoDeleted' in data) || data.logoDeleted is bool)
+        && (!('heroVideoId' in data) || (data.heroVideoId is string && data.heroVideoId.size() <= 128 && (data.heroVideoId == '' || isValidId(data.heroVideoId))))
+        && (!('heroMobileVideoId' in data) || (data.heroMobileVideoId is string && data.heroMobileVideoId.size() <= 128 && (data.heroMobileVideoId == '' || isValidId(data.heroMobileVideoId))))
+        && (!('heroPreviousVideoId' in data) || (data.heroPreviousVideoId is string && data.heroPreviousVideoId.size() <= 128 && (data.heroPreviousVideoId == '' || isValidId(data.heroPreviousVideoId))))
+        && (!('heroPreviousMobileVideoId' in data) || (data.heroPreviousMobileVideoId is string && data.heroPreviousMobileVideoId.size() <= 128 && (data.heroPreviousMobileVideoId == '' || isValidId(data.heroPreviousMobileVideoId))))
+        && (!('heroOverlayOpacity' in data) || (data.heroOverlayOpacity is number && data.heroOverlayOpacity >= 0 && data.heroOverlayOpacity <= 0.9))
+        && (!('heroMediaType' in data) || data.heroMediaType in ['image', 'video'])
+        && data.updatedAt is timestamp;
+    }
+
+    function isValidVideoAsset(data) {
+      return data.keys().hasAll(['id', 'name', 'variant', 'mimeType', 'sizeBytes', 'chunkCount', 'status', 'createdAt', 'updatedAt'])
+        && data.keys().hasOnly(['id', 'name', 'variant', 'mimeType', 'sizeBytes', 'chunkCount', 'status', 'createdAt', 'updatedAt'])
+        && data.id is string && isValidId(data.id)
+        && data.name is string && data.name.size() >= 1 && data.name.size() <= 160
+        && data.variant in ['desktop', 'mobile', 'section']
+        && data.mimeType is string && data.mimeType.size() >= 5 && data.mimeType.size() <= 60
+        && data.sizeBytes is number && data.sizeBytes >= 1 && data.sizeBytes <= 36700160
+        && data.chunkCount is number && data.chunkCount >= 1 && data.chunkCount <= 110
+        && data.status in ['active', 'archived']
+        && data.createdAt is timestamp
+        && data.updatedAt is timestamp;
+    }
+
+    function isValidVideoChunk(data) {
+      return data.keys().hasAll(['id', 'index', 'data', 'createdAt'])
+        && data.keys().hasOnly(['id', 'index', 'data', 'createdAt'])
+        && data.id is string && isValidId(data.id)
+        && data.index is number && data.index >= 0 && data.index < 110
+        && data.data is string && data.data.size() >= 1 && data.data.size() <= 700000
+        && data.createdAt is timestamp;
+    }
+
+    match /products/{productId} {
+      allow get: if isValidId(productId);
+      allow list: if isValidCategory(resource.data.category);
+      allow create: if isValidId(productId)
+        && isValidProduct(incoming())
+        && incoming().id == productId
+        && incoming().createdAt == request.time
+        && incoming().updatedAt == request.time;
+      allow update: if isValidId(productId)
+        && isValidProduct(incoming())
+        && incoming().id == existing().id
+        && incoming().createdAt == existing().createdAt
+        && incoming().updatedAt == request.time
+        && incoming().diff(existing()).affectedKeys().hasOnly([
+          'name', 'category', 'subCategory', 'brandLine', 'modelNumber',
+          'mainImage', 'mainImagePosition', 'mainImageFit', 'additionalImages',
+          'description', 'availableSizes', 'dimensions', 'materialDetails',
+          'specifications', 'gnSize', 'productType', 'matchingLidId', 'variants',
+          'packagingInfo', 'filterTags', 'isAvailable',
+          'relatedProductIds', 'featured', 'sortOrder', 'updatedAt'
+        ]);
+      allow delete: if isValidId(productId);
+    }
+
+    match /enquiries/{enquiryId} {
+      allow get: if isAdmin() && isValidId(enquiryId);
+      allow list: if isAdmin() && resource.data.status in ['new', 'reviewed', 'quoted', 'closed'];
+      allow create: if isValidId(enquiryId)
+        && isValidEnquiry(incoming())
+        && incoming().id == enquiryId
+        && incoming().status == 'new'
+        && !('adminNotes' in incoming())
+        && incoming().createdAt == request.time
+        && incoming().updatedAt == request.time;
+      allow update: if isAdmin()
+        && isValidId(enquiryId)
+        && isValidEnquiry(incoming())
+        && incoming().id == existing().id
+        && incoming().createdAt == existing().createdAt
+        && incoming().updatedAt == request.time
+        && incoming().diff(existing()).affectedKeys().hasOnly(['status', 'adminNotes', 'updatedAt']);
+      allow delete: if isAdmin() && isValidId(enquiryId);
+    }
+
+    match /settings/{settingId} {
+      allow get: if isValidId(settingId) && settingId == 'public_profile';
+      allow list: if false;
+      allow create: if isValidId(settingId)
+        && settingId == 'public_profile'
+        && isValidSettings(incoming())
+        && incoming().updatedAt == request.time;
+      allow update: if isValidId(settingId)
+        && settingId == 'public_profile'
+        && isValidSettings(incoming())
+        && incoming().updatedAt == request.time
+        && incoming().diff(existing()).affectedKeys().hasOnly([
+          'emailPlaceholder', 'phonePlaceholder', 'whatsappNumber', 'addressPlaceholder',
+          'aboutOverview', 'manufacturingCapabilities', 'qualityCommitment',
+          'industryExperience', 'customerCommitment', 'showPlaceholderSlots', 'showPrices', 'updatedAt'
+        ]);
+      allow delete: if false;
+    }
+
+    match /media_assets/{assetId} {
+      allow get: if isValidId(assetId);
+      allow list: if isValidMediaUsage(resource.data.usage);
+      allow create: if isValidId(assetId)
+        && isValidMediaAsset(incoming())
+        && incoming().id == assetId
+        && incoming().createdAt == request.time
+        && incoming().updatedAt == request.time;
+      allow update: if isValidId(assetId)
+        && isValidMediaAsset(incoming())
+        && incoming().id == existing().id
+        && incoming().createdAt == existing().createdAt
+        && incoming().updatedAt == request.time
+        && incoming().diff(existing()).affectedKeys().hasOnly([
+          'name', 'usage', 'dataUrl', 'mimeType', 'width', 'height', 'altText', 'updatedAt'
+        ]);
+      allow delete: if isValidId(assetId);
+    }
+
+    match /site_content/{docId} {
+      allow get: if isValidId(docId) && (docId == 'published' || docId == 'draft');
+      allow list: if false;
+      allow create: if isValidId(docId)
+        && (docId == 'published' || docId == 'draft')
+        && isValidSiteContent(incoming())
+        && incoming().id == docId
+        && incoming().updatedAt == request.time;
+      allow update: if isValidId(docId)
+        && (docId == 'published' || docId == 'draft')
+        && isValidSiteContent(incoming())
+        && incoming().id == existing().id
+        && incoming().updatedAt == request.time
+        && incoming().diff(existing()).affectedKeys().hasOnly([
+          'textOverrides', 'extraParagraphs', 'imageOverrides', 'categoryOverrides',
+          'whyChooseItems', 'aboutIntroParagraphs', 'aboutBlocks', 'aboutPhotos',
+          'aboutImagePlacement', 'logoUrl', 'logoAlt', 'logoPosition', 'logoDeleted',
+          'heroVideoId', 'heroMobileVideoId', 'heroPreviousVideoId', 'heroPreviousMobileVideoId',
+          'heroOverlayOpacity', 'heroMediaType', 'updatedAt'
+        ]);
+      allow delete: if isValidId(docId) && docId == 'draft';
+    }
+
+    match /video_assets/{videoId} {
+      allow get: if isValidId(videoId);
+      allow list: if resource.data.status in ['active', 'archived'];
+      allow create: if isValidId(videoId)
+        && isValidVideoAsset(incoming())
+        && incoming().id == videoId
+        && incoming().createdAt == request.time
+        && incoming().updatedAt == request.time;
+      allow update: if isValidId(videoId)
+        && isValidVideoAsset(incoming())
+        && incoming().id == existing().id
+        && incoming().createdAt == existing().createdAt
+        && incoming().updatedAt == request.time
+        && incoming().diff(existing()).affectedKeys().hasOnly([
+          'name', 'variant', 'status', 'updatedAt'
+        ]);
+      allow delete: if isValidId(videoId);
+
+      match /chunks/{chunkId} {
+        allow get: if isValidId(videoId) && isValidId(chunkId)
+          && exists(/databases/$(database)/documents/video_assets/$(videoId));
+        allow list: if isValidId(videoId)
+          && exists(/databases/$(database)/documents/video_assets/$(videoId))
+          && resource.data.index >= 0;
+        allow create: if isValidId(videoId)
+          && isValidId(chunkId)
+          && exists(/databases/$(database)/documents/video_assets/$(videoId))
+          && isValidVideoChunk(incoming())
+          && incoming().id == chunkId
+          && incoming().createdAt == request.time;
+        allow update: if false;
+        allow delete: if isValidId(videoId) && isValidId(chunkId);
+      }
+    }
+
+    match /admins/{uid} {
+      allow get: if isAdmin() && isValidId(uid);
+      allow list: if false;
+      allow create, update, delete: if isAdmin() && isValidId(uid);
+    }
+  }
+}

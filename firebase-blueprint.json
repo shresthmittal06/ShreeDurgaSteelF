@@ -1,0 +1,558 @@
+{
+  "entities": {
+    "Product": {
+      "title": "Product",
+      "description": "A stainless steel product in the SHREE DURGA STEELS B2B catalogue.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200
+        },
+        "category": {
+          "type": "string",
+          "enum": [
+            "kitchenware-home-utility",
+            "gn-pans",
+            "commercial-kitchen-equipment"
+          ]
+        },
+        "subCategory": {
+          "type": "string",
+          "maxLength": 120
+        },
+        "brandLine": {
+          "type": "string",
+          "maxLength": 120
+        },
+        "modelNumber": {
+          "type": "string",
+          "maxLength": 80
+        },
+        "mainImage": {
+          "type": "string",
+          "maxLength": 700000
+        },
+        "mainImagePosition": {
+          "type": "string",
+          "maxLength": 60
+        },
+        "mainImageFit": {
+          "type": "string",
+          "enum": ["contain", "cover"]
+        },
+        "additionalImages": {
+          "type": "array"
+        },
+        "description": {
+          "type": "string",
+          "maxLength": 3000
+        },
+        "availableSizes": {
+          "type": "array"
+        },
+        "dimensions": {
+          "type": "string",
+          "maxLength": 300
+        },
+        "materialDetails": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "specifications": {
+          "type": "array"
+        },
+        "gnSize": {
+          "type": "string",
+          "maxLength": 40
+        },
+        "productType": {
+          "type": "string",
+          "enum": ["gn-pan", "gn-lid", "ice-cream-pan", "equipment", "kitchenware"]
+        },
+        "matchingLidId": {
+          "type": "string",
+          "maxLength": 128
+        },
+        "variants": {
+          "type": "array"
+        },
+        "packagingInfo": {
+          "type": "string",
+          "maxLength": 300
+        },
+        "filterTags": {
+          "type": "array"
+        },
+        "isAvailable": {
+          "type": "boolean"
+        },
+        "relatedProductIds": {
+          "type": "array"
+        },
+        "featured": {
+          "type": "boolean"
+        },
+        "sortOrder": {
+          "type": "number"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "category",
+        "modelNumber",
+        "description",
+        "featured",
+        "sortOrder",
+        "createdAt",
+        "updatedAt"
+      ]
+    },
+    "Enquiry": {
+      "title": "Enquiry",
+      "description": "A B2B quotation enquiry submitted by a customer.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 120
+        },
+        "companyName": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 160
+        },
+        "phone": {
+          "type": "string",
+          "minLength": 5,
+          "maxLength": 40
+        },
+        "email": {
+          "type": "string",
+          "minLength": 3,
+          "maxLength": 160
+        },
+        "city": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "country": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "message": {
+          "type": "string",
+          "maxLength": 2000
+        },
+        "items": {
+          "type": "array"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["new", "reviewed", "quoted", "closed"]
+        },
+        "adminNotes": {
+          "type": "string",
+          "maxLength": 2000
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "companyName",
+        "phone",
+        "email",
+        "city",
+        "country",
+        "items",
+        "status",
+        "createdAt",
+        "updatedAt"
+      ]
+    },
+    "SiteSettings": {
+      "title": "SiteSettings",
+      "description": "Editable company profile, contact placeholders, and catalogue display settings.",
+      "type": "object",
+      "properties": {
+        "emailPlaceholder": {
+          "type": "string",
+          "maxLength": 160
+        },
+        "phonePlaceholder": {
+          "type": "string",
+          "maxLength": 60
+        },
+        "whatsappNumber": {
+          "type": "string",
+          "maxLength": 40
+        },
+        "addressPlaceholder": {
+          "type": "string",
+          "maxLength": 400
+        },
+        "aboutOverview": {
+          "type": "string",
+          "maxLength": 3000
+        },
+        "manufacturingCapabilities": {
+          "type": "string",
+          "maxLength": 2000
+        },
+        "qualityCommitment": {
+          "type": "string",
+          "maxLength": 2000
+        },
+        "industryExperience": {
+          "type": "string",
+          "maxLength": 2000
+        },
+        "customerCommitment": {
+          "type": "string",
+          "maxLength": 2000
+        },
+        "showPlaceholderSlots": {
+          "type": "boolean"
+        },
+        "showPrices": {
+          "type": "boolean"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "emailPlaceholder",
+        "phonePlaceholder",
+        "whatsappNumber",
+        "addressPlaceholder",
+        "showPlaceholderSlots",
+        "updatedAt"
+      ]
+    },
+    "MediaAsset": {
+      "title": "MediaAsset",
+      "description": "Permanently stored website image asset organised by website usage.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 160
+        },
+        "usage": {
+          "type": "string",
+          "enum": [
+            "branding",
+            "homepage",
+            "about",
+            "kitchenware",
+            "gn-pans",
+            "commercial-kitchen",
+            "general"
+          ]
+        },
+        "dataUrl": {
+          "type": "string",
+          "minLength": 10,
+          "maxLength": 800000
+        },
+        "mimeType": {
+          "type": "string",
+          "maxLength": 60
+        },
+        "width": {
+          "type": "number"
+        },
+        "height": {
+          "type": "number"
+        },
+        "altText": {
+          "type": "string",
+          "maxLength": 240
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "usage",
+        "dataUrl",
+        "mimeType",
+        "createdAt",
+        "updatedAt"
+      ]
+    },
+    "SiteContent": {
+      "title": "SiteContent",
+      "description": "Published or draft editable text overrides, image overrides, logo settings, and About Us content blocks.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "enum": ["published", "draft"]
+        },
+        "textOverrides": {
+          "type": "object"
+        },
+        "extraParagraphs": {
+          "type": "object"
+        },
+        "imageOverrides": {
+          "type": "object"
+        },
+        "categoryOverrides": {
+          "type": "object"
+        },
+        "whyChooseItems": {
+          "type": "array"
+        },
+        "aboutIntroParagraphs": {
+          "type": "array"
+        },
+        "aboutBlocks": {
+          "type": "array"
+        },
+        "aboutPhotos": {
+          "type": "array"
+        },
+        "aboutImagePlacement": {
+          "type": "string",
+          "enum": ["left", "right"]
+        },
+        "logoUrl": {
+          "type": "string",
+          "maxLength": 700000
+        },
+        "logoAlt": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "logoPosition": {
+          "type": "string",
+          "maxLength": 60
+        },
+        "logoDeleted": {
+          "type": "boolean"
+        },
+        "heroVideoId": {
+          "type": "string",
+          "maxLength": 128
+        },
+        "heroMobileVideoId": {
+          "type": "string",
+          "maxLength": 128
+        },
+        "heroPreviousVideoId": {
+          "type": "string",
+          "maxLength": 128
+        },
+        "heroPreviousMobileVideoId": {
+          "type": "string",
+          "maxLength": 128
+        },
+        "heroOverlayOpacity": {
+          "type": "number"
+        },
+        "heroMediaType": {
+          "type": "string",
+          "enum": ["image", "video"]
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": ["id", "updatedAt"]
+    },
+    "VideoAsset": {
+      "title": "VideoAsset",
+      "description": "Metadata for a permanently stored homepage hero background video.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 160
+        },
+        "variant": {
+          "type": "string",
+          "enum": ["desktop", "mobile", "section"]
+        },
+        "mimeType": {
+          "type": "string",
+          "maxLength": 60
+        },
+        "sizeBytes": {
+          "type": "number"
+        },
+        "chunkCount": {
+          "type": "number"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["active", "archived"]
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "variant",
+        "mimeType",
+        "sizeBytes",
+        "chunkCount",
+        "status",
+        "createdAt",
+        "updatedAt"
+      ]
+    },
+    "VideoChunk": {
+      "title": "VideoChunk",
+      "description": "Chunked base64 video segment stored under a VideoAsset document.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "maxLength": 128,
+          "pattern": "^[a-zA-Z0-9_\\-]+$"
+        },
+        "index": {
+          "type": "number"
+        },
+        "data": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 700000
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": ["id", "index", "data", "createdAt"]
+    },
+    "AdminUser": {
+      "title": "AdminUser",
+      "description": "Authorized administrator record.",
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string",
+          "maxLength": 160
+        },
+        "role": {
+          "type": "string",
+          "enum": ["admin"]
+        }
+      },
+      "required": ["email", "role"]
+    }
+  },
+  "firestore": {
+    "/products/{productId}": {
+      "schema": {
+        "$ref": "#/entities/Product"
+      },
+      "description": "Publicly readable product catalogue managed by administrators."
+    },
+    "/enquiries/{enquiryId}": {
+      "schema": {
+        "$ref": "#/entities/Enquiry"
+      },
+      "description": "Customer quotation enquiries; publicly creatable with strict validation, readable and manageable only by admins."
+    },
+    "/settings/{settingId}": {
+      "schema": {
+        "$ref": "#/entities/SiteSettings"
+      },
+      "description": "Editable company profile and contact settings."
+    },
+    "/media_assets/{assetId}": {
+      "schema": {
+        "$ref": "#/entities/MediaAsset"
+      },
+      "description": "Central image library assets stored permanently in Firestore and organised by website usage."
+    },
+    "/site_content/{docId}": {
+      "schema": {
+        "$ref": "#/entities/SiteContent"
+      },
+      "description": "Editable website text, logo, image slot overrides, hero video references, and About Us blocks (published and draft)."
+    },
+    "/video_assets/{videoId}": {
+      "schema": {
+        "$ref": "#/entities/VideoAsset"
+      },
+      "description": "Permanent hero background video metadata records."
+    },
+    "/video_assets/{videoId}/chunks/{chunkId}": {
+      "schema": {
+        "$ref": "#/entities/VideoChunk"
+      },
+      "description": "Base64-encoded binary chunks belonging to a permanent VideoAsset."
+    },
+    "/admins/{uid}": {
+      "schema": {
+        "$ref": "#/entities/AdminUser"
+      },
+      "description": "Authorized admin user registry."
+    }
+  }
+}
