@@ -19,7 +19,7 @@ import { ImageLibraryModal } from './ImageLibraryModal';
 import { LoopingVideo } from './LoopingVideo';
 
 const DEFAULT_HOME_ABOUT_IMG =
-  '/src/assets/images/about_manufacturing_craft_1794728250935.jpg';
+  '/images/about_manufacturing_craft_1794728250935.jpg';
 
 function getCatUsage(catId: string): MediaUsage {
   if (catId === 'gn-pans') return 'gn-pans';

@@ -61,7 +61,7 @@ export function buildDefaultAboutPhotos(): AboutPhotoItem[] {
   return [
     {
       id: 'photo-default-1',
-      src: '/src/assets/images/about_manufacturing_craft_1794728250935.jpg',
+      src: '/images/about_manufacturing_craft_1794728250935.jpg',
       alt: 'SHREE DURGA STEELS stainless steel manufacturing environment',
       caption: '',
       position: '50% 50%',
@@ -286,7 +286,7 @@ export function AboutEditorPanel({
           ...prev,
           {
             id: itemId,
-            src: '/src/assets/images/about_manufacturing_craft_1794728250935.jpg',
+            src: '/images/about_manufacturing_craft_1794728250935.jpg',
             alt: 'SHREE DURGA STEELS facility video',
             caption: '',
             position: '50% 50%',
@@ -346,7 +346,7 @@ export function AboutEditorPanel({
           finalType = 'video';
           finalVideoId = vidRes.id;
           if (!finalSrc || finalSrc.startsWith('data:')) {
-            finalSrc = '/src/assets/images/about_manufacturing_craft_1794728250935.jpg';
+            finalSrc = '/images/about_manufacturing_craft_1794728250935.jpg';
           }
         }
 
@@ -357,7 +357,7 @@ export function AboutEditorPanel({
         if (finalSrc.trim() || finalVideoId) {
           resolvedPhotos.push({
             id: item.id || `photo-${idx + 1}`,
-            src: (finalSrc.trim() || '/src/assets/images/about_manufacturing_craft_1794728250935.jpg').slice(
+            src: (finalSrc.trim() || '/images/about_manufacturing_craft_1794728250935.jpg').slice(
               0,
               700000
             ),

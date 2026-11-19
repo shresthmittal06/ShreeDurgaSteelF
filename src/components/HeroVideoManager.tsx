@@ -24,7 +24,7 @@ import type { MediaFormat } from '../types/catalog';
 import { ImageLibraryModal } from './ImageLibraryModal';
 
 const DEFAULT_HERO_IMAGE =
-  '/src/assets/images/hero_stainless_manufacturing_1794728248058.jpg';
+  '/images/hero_stainless_manufacturing_1794728248058.jpg';
 
 export function HeroVideoManager() {
   const {

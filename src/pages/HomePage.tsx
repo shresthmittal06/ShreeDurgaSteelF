@@ -126,13 +126,13 @@ export function HomePage({ onNavigate }: HomePageProps) {
 
   const heroFallbackSlot = getImageSlot(
     'home.hero.image',
-    '/src/assets/images/hero_stainless_manufacturing_1794728248058.jpg',
+    '/images/hero_stainless_manufacturing_1794728248058.jpg',
     'SHREE DURGA STEELS stainless steel GN pans and kitchenware collection',
     'cover'
   );
   const heroFallbackSrc =
     resolveMediaSrc(heroFallbackSlot.src) ||
-    '/src/assets/images/hero_stainless_manufacturing_1794728248058.jpg';
+    '/images/hero_stainless_manufacturing_1794728248058.jpg';
 
   const heroOverlayOpacity =
     typeof activeContent.heroOverlayOpacity === 'number'
@@ -423,7 +423,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
               <div className="border border-[#B8B8B3]/70 bg-[#F5F5F5] h-full min-h-[300px] overflow-hidden">
                 <EditableImage
                   slotId="home.about.image"
-                  defaultSrc="/src/assets/images/about_manufacturing_craft_1794728250935.jpg"
+                  defaultSrc="/images/about_manufacturing_craft_1794728250935.jpg"
                   defaultAlt="Stainless steel manufacturing workshop and raw steel sheet stock"
                   usage="about"
                   label="Homepage About Section Photograph"

@@ -34,6 +34,10 @@ import {
 import { SILVER_LINING_PRODUCTS } from '../data/silverLiningProducts';
 import { GN_PANS_CATALOG } from '../data/gnPansCatalog';
 import { KITCHENWARE_CATALOG } from '../data/kitchenwareCatalog';
+import defaultMediaAssetsMap from '../../data/cms/media-assets.json';
+import defaultProductsMap from '../../data/cms/products.json';
+import defaultSiteContentData from '../../data/cms/site-content.json';
+import defaultSettingsData from '../../data/cms/settings.json';
 
 export type SaveActionMode = 'save' | 'save-draft' | 'preview' | 'publish';
 
@@ -43,6 +47,29 @@ const EMPTY_PUBLISHED_CONTENT: SiteContent = {
   extraParagraphs: {},
   imageOverrides: {},
   categoryOverrides: {},
+};
+
+const INITIAL_MEDIA_ASSETS: MediaAsset[] = Object.values(
+  defaultMediaAssetsMap as unknown as Record<string, MediaAsset>
+);
+
+const INITIAL_PRODUCTS: Product[] = Object.values(
+  defaultProductsMap as unknown as Record<string, Product>
+);
+
+const INITIAL_PUBLISHED_CONTENT: SiteContent = {
+  ...EMPTY_PUBLISHED_CONTENT,
+  ...(((defaultSiteContentData as unknown as Record<string, unknown>).published as Partial<SiteContent>) || {}),
+  id: 'published',
+};
+
+const INITIAL_SETTINGS: SiteSettings = {
+  ...DEFAULT_SITE_SETTINGS,
+  ...(defaultSettingsData as unknown as Partial<SiteSettings>),
+  footerConfig: {
+    ...(DEFAULT_SITE_SETTINGS.footerConfig || {}),
+    ...((defaultSettingsData as unknown as Partial<SiteSettings>).footerConfig || {}),
+  },
 };
 
 const EMPTY_DRAFT_CONTENT: SiteContent = {
@@ -173,12 +200,12 @@ const StoreContext = createContext<StoreContextValue | undefined>(undefined);
 const QUOTE_STORAGE_KEY = 'sds_quote_items_v1';
 
 export function StoreProvider({ children }: { children: React.ReactNode }) {
-  const [realProducts, setRealProducts] = useState<Product[]>([]);
-  const [loadingProducts, setLoadingProducts] = useState(true);
-  const [settings, setSettings] = useState<SiteSettings>(DEFAULT_SITE_SETTINGS);
-  const [mediaAssets, setMediaAssets] = useState<MediaAsset[]>([]);
+  const [realProducts, setRealProducts] = useState<Product[]>(INITIAL_PRODUCTS);
+  const [loadingProducts, setLoadingProducts] = useState(false);
+  const [settings, setSettings] = useState<SiteSettings>(INITIAL_SETTINGS);
+  const [mediaAssets, setMediaAssets] = useState<MediaAsset[]>(INITIAL_MEDIA_ASSETS);
   const [videoAssets, setVideoAssets] = useState<VideoAsset[]>([]);
-  const [publishedContent, setPublishedContent] = useState<SiteContent>(EMPTY_PUBLISHED_CONTENT);
+  const [publishedContent, setPublishedContent] = useState<SiteContent>(INITIAL_PUBLISHED_CONTENT);
   const [draftContent, setDraftContent] = useState<SiteContent | null>(null);
   const [editMode, setEditMode] = useState(false);
   const [previewMode, setPreviewMode] = useState(false);
@@ -552,14 +579,19 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
     if (!src) return undefined;
     if (src.startsWith('media://')) {
       const id = src.slice('media://'.length);
-      if (mediaMap[id]?.dataUrl) return mediaMap[id].dataUrl;
+      if (mediaMap[id]?.dataUrl?.startsWith('data:')) {
+        return mediaMap[id].dataUrl;
+      }
       try {
         const localMap = JSON.parse(localStorage.getItem('sds_local_media_assets_v1') || '{}');
-        if (localMap[id]?.dataUrl) return localMap[id].dataUrl;
+        if (localMap[id]?.dataUrl?.startsWith('data:')) return localMap[id].dataUrl;
       } catch {
         // Ignore storage errors
       }
-      return undefined;
+      return `/media/${id}.webp`;
+    }
+    if (src.startsWith('/src/assets/images/')) {
+      return src.replace('/src/assets/images/', '/images/');
     }
     return src;
   };

@@ -202,31 +202,31 @@ export const BUILTIN_WEBSITE_IMAGES: {
     id: 'builtin-hero',
     name: 'Homepage Hero Stainless Collection',
     usage: 'homepage',
-    src: '/src/assets/images/hero_stainless_manufacturing_1794728248058.jpg',
+    src: '/images/hero_stainless_manufacturing_1794728248058.jpg',
   },
   {
     id: 'builtin-about',
     name: 'About Us & Factory Manufacturing Craft',
     usage: 'about',
-    src: '/src/assets/images/about_manufacturing_craft_1794728250935.jpg',
+    src: '/images/about_manufacturing_craft_1794728250935.jpg',
   },
   {
     id: 'builtin-cat-kitchenware',
     name: 'Category Card – Kitchenware & Home Utility',
     usage: 'kitchenware',
-    src: '/src/assets/images/category_kitchenware_utility_1794728249070.jpg',
+    src: '/images/category_kitchenware_utility_1794728249070.jpg',
   },
   {
     id: 'builtin-cat-gn-pans',
     name: 'Category Card – GN Pans & Accessories',
     usage: 'gn-pans',
-    src: '/src/assets/images/category_gn_pans_1794728248987.jpg',
+    src: '/images/category_gn_pans_1794728248987.jpg',
   },
   {
     id: 'builtin-cat-commercial',
     name: 'Category Card – Commercial Kitchen Equipment',
     usage: 'commercial-kitchen',
-    src: '/src/assets/images/category_commercial_kitchen_1794728249594.jpg',
+    src: '/images/category_commercial_kitchen_1794728249594.jpg',
   },
 ];
 
@@ -370,7 +370,7 @@ export const CATEGORIES: CategoryMeta[] = [
       'Precision-crafted stainless steel culinary vessels, canisters, servingware, and everyday utility essentials.',
     fullDescription:
       'Explore our stainless steel kitchenware and home utility range designed for consistent finish, everyday durability, and B2B wholesale supply.',
-    image: '/src/assets/images/category_kitchenware_utility_1794728249070.jpg',
+    image: '/images/category_kitchenware_utility_1794728249070.jpg',
   },
   {
     id: 'gn-pans',
@@ -380,7 +380,7 @@ export const CATEGORIES: CategoryMeta[] = [
       'Standardised gastronorm containers, perforated trays, and fitted lids engineered for commercial foodservice.',
     fullDescription:
       'Explore our stainless steel GN pans and accessories structured for hotels, catering operations, central kitchens, and institutional buyers.',
-    image: '/src/assets/images/category_gn_pans_1794728248987.jpg',
+    image: '/images/category_gn_pans_1794728248987.jpg',
   },
   {
     id: 'commercial-kitchen-equipment',
@@ -390,7 +390,7 @@ export const CATEGORIES: CategoryMeta[] = [
       'Heavy-duty stainless steel prep tables, shelving systems, sinks, and foodservice fabrication.',
     fullDescription:
       'Explore our commercial kitchen equipment line built for hospitality kitchens, restaurants, canteens, and industrial food preparation facilities.',
-    image: '/src/assets/images/category_commercial_kitchen_1794728249594.jpg',
+    image: '/images/category_commercial_kitchen_1794728249594.jpg',
   },
 ];
 
